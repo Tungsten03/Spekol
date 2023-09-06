@@ -3,6 +3,9 @@ from pymodbus.payload import BinaryPayloadBuilder, Endian
 
 def move_device(client, position):
     """
+    Moves device to left (position=0) and right (position=1) limit position.
+
+    No idea, just works...
 
     :param device_name:
     :param position:
