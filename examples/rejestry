@@ -1,0 +1,2 @@
+# zmiana prądu napędu
+rej: 1003 [%] // 0x03/0x06 -> read_holding_registers/write_register
