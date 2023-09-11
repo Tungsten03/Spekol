@@ -3,31 +3,66 @@ from pymodbus.payload import BinaryPayloadBuilder, Endian
 
 
 
-def go_home(client, speed):
+def go_home(device:object, speed:(int,float)):
+    """
+    Takes a client object and a movement speed and sends the message to the device.
+    Positive value starts homing of a device to position 0 (clockwise), negative value will move to max position
+    (counter-clockwise)
+
+    :param device: The client object of a selected device.
+    :param speed: The movement speed to set. A positive value means forward motion,
+                   and a negative value means reverse motion.
+
+    :return None
+
+    :raise ValueError: Raised if the provided speed is not of type int or float.
+
+    e.g.
+    go_home(my_client, 2.5)   # Sets the movement speed to 2.5 (forward motion)
+    go_home(my_client, -1.75) # Sets the movement speed to -1.75 (reverse motion)
+    """
+    if not isinstance(speed, (int, float)):
+        raise ValueError('wrong speed value. Must be int/float type')
+
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     builder.add_32bit_int(int(-6400*speed))
     payload = builder.build()
-    print(payload)
-    print('Homing....')
-    client.write_registers(1036, payload, count=2, unit=1, skip_encode=True)
-    print('device position zeroed')
-def move_device(client, position):
+    device.write_registers(1036, payload, count=2, unit=1, skip_encode=True)
+
+
+def move_device(device:object, position:int):
     """
-    Moves device to left (position=0) and right (position=1) limit position.
+    7455 = 400nm
+    Moves device to given position
 
-    No idea, just works...
-
-    :param device_name:
+    :param device: The client object of a selected device.
     :param position:
     :return:
     """
+    if not isinstance(position, int):
+        raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(position)
+    builder.add_32bit_int(abs(position))
     payload = builder.build()
-    print(payload)
-    print('moving to position...')
-    client.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
-    print('device in position')
+    device.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
+
+def move_to_wavelenght(device:object, wavelenght:int):
+    """
+    7455 = 400nm
+    Moves device to given position
+
+    :param device: The client object of a selected device.
+    :param position:
+    :return:
+    """
+    if not isinstance(wavelenght, int):
+        raise ValueError('Position must be integer')
+    builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
+    position = 1055 + int((wavelenght-300)*74.55)
+    builder.add_32bit_int(abs(position))
+    payload = builder.build()
+    device.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
+
 
 def check_power(device_name):
     """

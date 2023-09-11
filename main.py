@@ -18,9 +18,9 @@ if connection:
     print('Connection established')
 
     try:
-
-        move_device(client, 19200)
-        go_home(client, 0.5)
+        move_to_wavelenght(client, 450)
+        # move_device(client, int(1055+(3.5*6400)))
+        # go_home(client, 1)
 
     except ModbusException as e:
         print(f'Error: {e}')
