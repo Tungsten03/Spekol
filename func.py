@@ -1,6 +1,16 @@
 from pymodbus.client import ModbusSerialClient
 from pymodbus.payload import BinaryPayloadBuilder, Endian
 
+
+
+def go_home(client, speed):
+    builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
+    builder.add_32bit_int(int(-6400*speed))
+    payload = builder.build()
+    print(payload)
+    print('Homing....')
+    client.write_registers(1036, payload, count=2, unit=1, skip_encode=True)
+    print('device position zeroed')
 def move_device(client, position):
     """
     Moves device to left (position=0) and right (position=1) limit position.
@@ -11,12 +21,12 @@ def move_device(client, position):
     :param position:
     :return:
     """
-    builder = BinaryPayloadBuilder(byteorder=Endian.Big, wordorder=Endian.Big)
+    builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     builder.add_32bit_int(position)
     payload = builder.build()
     print(payload)
     print('moving to position...')
-    client.write_registers(1042, payload, count=1, unit=1, skip_encode=True)
+    client.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
     print('device in position')
 
 def check_power(device_name):
