@@ -337,3 +337,2229 @@
 2023-09-11 20:52:36,739 DEBUG logging:102 Processing: 
 2023-09-11 20:52:36,739 DEBUG logging:102 Getting transaction 0
 2023-09-11 20:52:36,739 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:43:14,456 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:43:14,456 DEBUG logging:102 Running transaction 1
+2023-09-12 09:43:14,457 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 09:43:14,457 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:43:14,457 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:43:20,603 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:43:20,603 DEBUG logging:102 Processing: 
+2023-09-12 09:43:20,603 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:43:20,603 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:45:19,127 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:45:19,128 DEBUG logging:102 Running transaction 1
+2023-09-12 09:45:19,128 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x12 0xae 0x0 0x0 0x21 0xdf
+2023-09-12 09:45:19,128 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:45:19,129 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:45:25,278 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:45:25,278 DEBUG logging:102 Processing: 
+2023-09-12 09:45:25,278 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:45:25,278 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:45:28,316 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:45:28,316 DEBUG logging:102 Running transaction 2
+2023-09-12 09:45:28,316 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x35 0xa0 0x0 0x0 0x4a 0xa8
+2023-09-12 09:45:28,316 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504728.31694
+2023-09-12 09:45:28,320 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:45:28,320 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:45:34,352 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:45:34,352 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:45:34,352 DEBUG logging:102 RECV: 
+2023-09-12 09:45:34,352 DEBUG logging:102 Processing: 
+2023-09-12 09:45:34,352 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:45:34,461 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:45:37,497 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:45:37,497 DEBUG logging:102 Running transaction 3
+2023-09-12 09:45:37,497 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x2f 0xcd 0x0 0x0 0xdc 0x6d
+2023-09-12 09:45:37,497 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504737.497202
+2023-09-12 09:45:37,499 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:45:37,500 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:45:43,520 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:45:43,520 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:45:43,520 DEBUG logging:102 RECV: 
+2023-09-12 09:45:43,521 DEBUG logging:102 Processing: 
+2023-09-12 09:45:43,521 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:45:43,643 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:45:46,679 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:45:46,679 DEBUG logging:102 Running transaction 4
+2023-09-12 09:45:46,680 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 09:45:46,680 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504746.680449
+2023-09-12 09:45:46,682 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:45:46,683 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:45:52,701 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:45:52,701 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:45:52,701 DEBUG logging:102 RECV: 
+2023-09-12 09:45:52,701 DEBUG logging:102 Processing: 
+2023-09-12 09:45:52,701 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:45:52,826 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:45:55,870 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:45:55,871 DEBUG logging:102 Running transaction 5
+2023-09-12 09:45:55,871 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 09:45:55,871 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504755.871379
+2023-09-12 09:45:55,873 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:45:55,873 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:46:01,905 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:46:01,905 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:46:01,905 DEBUG logging:102 RECV: 
+2023-09-12 09:46:01,905 DEBUG logging:102 Processing: 
+2023-09-12 09:46:01,905 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:46:02,013 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:46:05,050 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:46:05,050 DEBUG logging:102 Running transaction 6
+2023-09-12 09:46:05,050 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 09:46:05,050 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504765.050212
+2023-09-12 09:46:05,053 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:46:05,053 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:46:11,060 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:46:11,060 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:46:11,060 DEBUG logging:102 RECV: 
+2023-09-12 09:46:11,060 DEBUG logging:102 Processing: 
+2023-09-12 09:46:11,060 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:46:11,183 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:46:11,226 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 09:46:11,228 DEBUG logging:102 Running transaction 7
+2023-09-12 09:46:11,228 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 09:46:11,228 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694504771.228249
+2023-09-12 09:46:11,230 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:46:11,230 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:46:17,253 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 09:46:17,253 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 09:46:17,253 DEBUG logging:102 RECV: 
+2023-09-12 09:46:17,253 DEBUG logging:102 Processing: 
+2023-09-12 09:46:17,253 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:46:17,378 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:52:52,027 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:52:52,028 DEBUG logging:102 Running transaction 1
+2023-09-12 09:52:52,028 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x14 0x0 0x2 0x4 0xe 0x8f 0x0 0x0 0xf6 0x6f
+2023-09-12 09:52:52,028 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:52:52,028 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:52:58,178 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:52:58,178 DEBUG logging:102 Processing: 
+2023-09-12 09:52:58,179 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:52:58,179 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:53:01,602 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:53:01,602 DEBUG logging:102 Running transaction 1
+2023-09-12 09:53:01,602 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x14 0x0 0x2 0x4 0x1d 0x1f 0x0 0x0 0xf2 0xc6
+2023-09-12 09:53:01,602 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:53:01,603 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:53:07,733 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:53:07,733 DEBUG logging:102 Processing: 
+2023-09-12 09:53:07,733 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:53:07,733 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:53:12,839 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:53:12,839 DEBUG logging:102 Running transaction 1
+2023-09-12 09:53:12,839 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x14 0x0 0x2 0x4 0xf1 0x71 0xff 0xff 0xa6 0x3b
+2023-09-12 09:53:12,840 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:53:12,840 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:53:18,979 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:53:18,979 DEBUG logging:102 Processing: 
+2023-09-12 09:53:18,980 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:53:18,980 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 09:53:33,913 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 09:53:33,913 DEBUG logging:102 Running transaction 1
+2023-09-12 09:53:33,913 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 09:53:33,913 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 09:53:33,913 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 09:53:40,049 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 09:53:40,049 DEBUG logging:102 Processing: 
+2023-09-12 09:53:40,049 DEBUG logging:102 Getting transaction 0
+2023-09-12 09:53:40,049 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:31:13,581 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:31:13,581 DEBUG logging:102 Running transaction 1
+2023-09-12 10:31:13,581 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 10:31:13,581 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:31:13,583 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:31:19,736 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:31:19,736 DEBUG logging:102 Processing: 
+2023-09-12 10:31:19,736 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:31:19,736 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:31:19,781 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:31:19,781 DEBUG logging:102 Running transaction 2
+2023-09-12 10:31:19,781 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x28 0x0 0x2 0x45 0x33
+2023-09-12 10:31:19,781 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694507479.781405
+2023-09-12 10:31:19,784 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:31:19,784 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:31:19,826 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:31:19,826 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x3f 0x80 0xea 0x63
+2023-09-12 10:31:19,826 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x3f 0x80 0xea 0x63
+2023-09-12 10:31:19,826 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x3f 0x80
+2023-09-12 10:31:19,826 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:31:19,826 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:31:19,826 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:31:19,826 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:31:19,828 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:31:19,828 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:31:47,210 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:31:47,210 DEBUG logging:102 Running transaction 1
+2023-09-12 10:31:47,210 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x28 0x0 0x1 0x5 0x32
+2023-09-12 10:31:47,210 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:31:47,211 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:31:47,252 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:31:47,252 DEBUG logging:102 RECV: 0x1 0x3 0x2 0x0 0x0 0xb8 0x44
+2023-09-12 10:31:47,252 DEBUG logging:102 Processing: 0x1 0x3 0x2 0x0 0x0 0xb8 0x44
+2023-09-12 10:31:47,252 DEBUG logging:102 Getting Frame - 0x3 0x2 0x0 0x0
+2023-09-12 10:31:47,252 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:31:47,252 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:31:47,252 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:31:47,252 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:31:47,252 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:31:47,252 DEBUG logging:102 ReadHoldingRegistersResponse (1)
+2023-09-12 10:32:34,410 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:32:34,411 DEBUG logging:102 Running transaction 1
+2023-09-12 10:32:34,411 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:32:34,411 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:32:34,411 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:32:34,453 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:32:34,453 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:32:34,453 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:32:34,453 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:32:34,453 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:32:34,454 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:32:34,454 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:32:34,454 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:32:34,454 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:32:34,454 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:33:20,133 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:33:20,133 DEBUG logging:102 Running transaction 1
+2023-09-12 10:33:20,133 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:33:20,133 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:33:20,133 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:33:20,175 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:33:20,175 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:33:20,175 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:33:20,175 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:33:20,175 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:33:20,175 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:33:20,175 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:33:20,176 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:33:20,176 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:33:20,176 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:36:44,285 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:36:44,285 DEBUG logging:102 Running transaction 1
+2023-09-12 10:36:44,286 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:36:44,286 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:36:44,286 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:36:44,328 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:36:44,328 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:36:44,329 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:36:44,329 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:36:44,329 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:36:44,329 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:36:44,329 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:36:44,329 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:36:44,329 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:36:44,329 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:36:58,952 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:36:58,952 DEBUG logging:102 Running transaction 1
+2023-09-12 10:36:58,952 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:36:58,952 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:36:58,953 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:36:58,994 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:36:58,994 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:36:58,994 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:36:58,995 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:36:58,995 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:36:58,995 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:36:58,995 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:36:58,995 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:36:58,995 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:36:58,995 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:38:04,482 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:38:04,482 DEBUG logging:102 Running transaction 1
+2023-09-12 10:38:04,482 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:38:04,482 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:38:04,483 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:38:04,524 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:38:04,524 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:04,524 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:04,524 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:38:04,525 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:38:04,525 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:38:04,525 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:38:04,525 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:38:04,525 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:38:04,525 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:38:27,932 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:38:27,932 DEBUG logging:102 Running transaction 1
+2023-09-12 10:38:27,932 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:38:27,933 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:38:27,933 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:38:27,974 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:38:27,974 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:27,974 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:27,974 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:38:27,974 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:38:27,974 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:38:27,974 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:38:27,974 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:38:27,976 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:38:27,976 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:38:40,777 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:38:40,777 DEBUG logging:102 Running transaction 1
+2023-09-12 10:38:40,777 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:38:40,777 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:38:40,778 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:38:40,820 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:38:40,820 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:40,820 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:38:40,820 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:38:40,820 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:38:40,820 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:38:40,820 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:38:40,820 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:38:40,820 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:38:40,820 DEBUG logging:102 ReadHoldingRegistersResponse (2)
+2023-09-12 10:41:31,112 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:41:31,112 DEBUG logging:102 Running transaction 1
+2023-09-12 10:41:31,112 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:41:31,112 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:41:31,112 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:41:31,154 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:41:31,154 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:41:31,154 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:41:31,155 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:41:31,155 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:41:31,155 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:41:31,155 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:41:31,155 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:41:31,155 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:41:31,155 DEBUG logging:102 [0, 16672]
+2023-09-12 10:41:31,155 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:46:59,710 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:46:59,710 DEBUG logging:102 Running transaction 1
+2023-09-12 10:46:59,710 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:46:59,710 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:46:59,711 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:46:59,752 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:46:59,752 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:46:59,752 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:46:59,753 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:46:59,753 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:46:59,753 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:46:59,753 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:46:59,753 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:46:59,753 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:46:59,753 DEBUG logging:102 [0, 16672]
+2023-09-12 10:46:59,753 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:46:59,753 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:46:59,753 DEBUG logging:102 Running transaction 2
+2023-09-12 10:46:59,755 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x40 0xa0 0x76 0x4c
+2023-09-12 10:46:59,755 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508419.752866 Current Time stamp - 1694508419.755026
+2023-09-12 10:46:59,755 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:46:59,757 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:46:59,757 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:47:05,895 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:47:05,895 DEBUG logging:102 Processing: 
+2023-09-12 10:47:05,895 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:47:05,895 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:47:08,931 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:47:08,931 DEBUG logging:102 Running transaction 3
+2023-09-12 10:47:08,931 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:47:08,931 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508428.931872
+2023-09-12 10:47:08,934 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:47:08,934 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:47:08,975 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:47:08,975 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:47:08,975 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:47:08,975 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0xa0
+2023-09-12 10:47:08,975 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:47:08,975 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:47:08,975 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:47:08,975 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:47:08,975 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:47:08,975 DEBUG logging:102 [0, 16544]
+2023-09-12 10:47:08,975 DEBUG logging:102 handle: [b'@\xa0', b'\x00\x00']
+2023-09-12 10:47:08,975 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:47:08,975 DEBUG logging:102 Running transaction 4
+2023-09-12 10:47:08,975 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:47:08,976 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508428.975519 Current Time stamp - 1694508428.976786
+2023-09-12 10:47:08,976 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:47:08,979 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:47:08,979 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:47:15,010 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:47:15,010 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:47:15,010 DEBUG logging:102 RECV: 
+2023-09-12 10:47:15,010 DEBUG logging:102 Processing: 
+2023-09-12 10:47:15,010 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:47:15,118 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:02,895 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:48:02,896 DEBUG logging:102 Running transaction 1
+2023-09-12 10:48:02,896 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:48:02,896 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:02,896 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:02,938 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:02,939 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:48:02,939 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:48:02,939 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0xa0
+2023-09-12 10:48:02,939 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:48:02,939 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:48:02,939 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:48:02,939 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:48:02,939 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:02,939 DEBUG logging:102 [0, 16544]
+2023-09-12 10:48:02,939 DEBUG logging:102 handle: [b'@\xa0', b'\x00\x00']
+2023-09-12 10:48:02,939 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:02,939 DEBUG logging:102 Running transaction 2
+2023-09-12 10:48:02,939 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:48:02,940 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508482.938667 Current Time stamp - 1694508482.940233
+2023-09-12 10:48:02,940 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:48:02,942 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:02,942 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:09,089 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:48:09,089 DEBUG logging:102 Processing: 
+2023-09-12 10:48:09,089 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:48:09,089 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:09,127 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:09,127 DEBUG logging:102 Running transaction 3
+2023-09-12 10:48:09,127 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:48:09,127 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508489.12769
+2023-09-12 10:48:09,130 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:09,130 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:09,171 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:09,172 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:48:09,172 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0xa0 0xcb 0x8b
+2023-09-12 10:48:09,172 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0xa0
+2023-09-12 10:48:09,172 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:48:09,172 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:48:09,172 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:48:09,172 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:48:09,172 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:09,172 DEBUG logging:102 [0, 16544]
+2023-09-12 10:48:09,172 DEBUG logging:102 handle: [b'@\xa0', b'\x00\x00']
+2023-09-12 10:48:11,173 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:11,173 DEBUG logging:102 Running transaction 4
+2023-09-12 10:48:11,173 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x41 0x20 0x76 0x7c
+2023-09-12 10:48:11,173 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508489.171801 Current Time stamp - 1694508491.17329
+2023-09-12 10:48:11,173 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:11,173 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:17,197 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:48:17,197 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:17,198 DEBUG logging:102 RECV: 
+2023-09-12 10:48:17,198 DEBUG logging:102 Processing: 
+2023-09-12 10:48:17,198 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:48:17,323 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:20,364 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:20,364 DEBUG logging:102 Running transaction 5
+2023-09-12 10:48:20,364 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:48:20,364 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508500.364894
+2023-09-12 10:48:20,367 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:20,367 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:20,408 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:20,409 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:48:20,409 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:48:20,409 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:48:20,409 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:48:20,409 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:48:20,409 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:48:20,409 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:48:20,409 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:20,409 DEBUG logging:102 [0, 16672]
+2023-09-12 10:48:20,409 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:48:20,409 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:20,409 DEBUG logging:102 Running transaction 6
+2023-09-12 10:48:20,409 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:48:20,410 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508500.408957 Current Time stamp - 1694508500.410485
+2023-09-12 10:48:20,410 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:48:20,412 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:20,412 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:26,435 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:48:26,435 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:26,435 DEBUG logging:102 RECV: 
+2023-09-12 10:48:26,435 DEBUG logging:102 Processing: 
+2023-09-12 10:48:26,435 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:48:26,559 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:48,122 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:48:48,122 DEBUG logging:102 Running transaction 1
+2023-09-12 10:48:48,123 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x40 0x40 0x77 0xc4
+2023-09-12 10:48:48,123 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:48,124 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:54,258 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:48:54,258 DEBUG logging:102 Processing: 
+2023-09-12 10:48:54,259 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:48:54,259 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:54,293 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:54,293 DEBUG logging:102 Running transaction 2
+2023-09-12 10:48:54,294 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:48:54,294 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508534.294924
+2023-09-12 10:48:54,297 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:54,297 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:48:54,338 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:48:54,338 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:48:54,338 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:48:54,338 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:48:54,339 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:48:54,339 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:48:54,339 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:48:54,339 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:48:54,339 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:48:54,339 DEBUG logging:102 [0, 16448]
+2023-09-12 10:48:54,339 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:48:54,339 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:48:54,339 DEBUG logging:102 Running transaction 3
+2023-09-12 10:48:54,339 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 10:48:54,339 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508534.338818 Current Time stamp - 1694508534.339328
+2023-09-12 10:48:54,339 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:48:54,342 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:48:54,342 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:49:00,355 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:49:00,355 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:49:00,355 DEBUG logging:102 RECV: 
+2023-09-12 10:49:00,355 DEBUG logging:102 Processing: 
+2023-09-12 10:49:00,355 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:49:00,464 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:49:00,507 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:49:00,507 DEBUG logging:102 Running transaction 4
+2023-09-12 10:49:00,507 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:49:00,507 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508540.507428
+2023-09-12 10:49:00,510 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:49:00,510 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:49:00,551 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:49:00,552 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:49:00,552 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:49:00,552 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:49:00,552 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:49:00,552 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:49:00,552 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:49:00,552 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:49:00,552 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:49:00,552 DEBUG logging:102 [0, 16448]
+2023-09-12 10:49:00,552 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:49:02,553 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:49:02,553 DEBUG logging:102 Running transaction 5
+2023-09-12 10:49:02,553 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x41 0x20 0x76 0x7c
+2023-09-12 10:49:02,553 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508540.551528 Current Time stamp - 1694508542.553147
+2023-09-12 10:49:02,553 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:49:02,553 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:49:08,565 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:49:08,565 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:49:08,565 DEBUG logging:102 RECV: 
+2023-09-12 10:49:08,565 DEBUG logging:102 Processing: 
+2023-09-12 10:49:08,565 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:49:08,674 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:49:11,711 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:49:11,711 DEBUG logging:102 Running transaction 6
+2023-09-12 10:49:11,711 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:49:11,711 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508551.711287
+2023-09-12 10:49:11,713 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:49:11,713 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:49:11,755 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:49:11,755 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:49:11,755 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:49:11,755 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:49:11,756 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:49:11,756 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:49:11,756 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:49:11,756 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:49:11,756 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:49:11,756 DEBUG logging:102 [0, 16672]
+2023-09-12 10:49:11,756 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:49:11,756 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:49:11,757 DEBUG logging:102 Running transaction 7
+2023-09-12 10:49:11,757 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:49:11,757 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508551.755257 Current Time stamp - 1694508551.757277
+2023-09-12 10:49:11,757 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:49:11,759 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:49:11,759 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:49:17,775 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:49:17,775 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:49:17,775 DEBUG logging:102 RECV: 
+2023-09-12 10:49:17,775 DEBUG logging:102 Processing: 
+2023-09-12 10:49:17,775 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:49:17,884 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:53:13,555 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:53:13,555 DEBUG logging:102 Running transaction 1
+2023-09-12 10:53:13,555 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xc 0x80 0x0 0x0 0xc7 0x7e
+2023-09-12 10:53:13,555 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:53:13,555 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:53:19,706 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:53:19,706 DEBUG logging:102 Processing: 
+2023-09-12 10:53:19,706 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:53:19,706 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:55:43,863 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:55:43,864 DEBUG logging:102 Running transaction 1
+2023-09-12 10:55:43,864 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x40 0x40 0x77 0xc4
+2023-09-12 10:55:43,864 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:55:43,864 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:55:50,006 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:55:50,006 DEBUG logging:102 Processing: 
+2023-09-12 10:55:50,006 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:55:50,006 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:55:50,042 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:55:50,042 DEBUG logging:102 Running transaction 2
+2023-09-12 10:55:50,042 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:55:50,042 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508950.04249
+2023-09-12 10:55:50,045 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:55:50,045 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:55:50,086 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:55:50,086 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:55:50,086 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:55:50,086 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:55:50,087 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:55:50,087 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:55:50,087 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:55:50,087 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:55:50,087 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:55:50,087 DEBUG logging:102 [0, 16448]
+2023-09-12 10:55:50,087 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:55:50,087 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:55:50,087 DEBUG logging:102 Running transaction 3
+2023-09-12 10:55:50,087 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x12 0xae 0x0 0x0 0x21 0xdf
+2023-09-12 10:55:50,087 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508950.086379 Current Time stamp - 1694508950.087387
+2023-09-12 10:55:50,087 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:55:50,090 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:55:50,091 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:55:56,107 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:55:56,108 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:55:56,108 DEBUG logging:102 RECV: 
+2023-09-12 10:55:56,108 DEBUG logging:102 Processing: 
+2023-09-12 10:55:56,108 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:55:56,215 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:55:56,257 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:55:56,257 DEBUG logging:102 Running transaction 4
+2023-09-12 10:55:56,257 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:55:56,257 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508956.257475
+2023-09-12 10:55:56,260 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:55:56,260 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:55:56,301 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:55:56,301 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:55:56,301 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:55:56,301 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:55:56,301 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:55:56,302 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:55:56,302 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:55:56,302 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:55:56,302 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:55:56,302 DEBUG logging:102 [0, 16448]
+2023-09-12 10:55:56,302 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:55:58,303 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:55:58,303 DEBUG logging:102 Running transaction 5
+2023-09-12 10:55:58,303 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x41 0x20 0x76 0x7c
+2023-09-12 10:55:58,303 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508956.301621 Current Time stamp - 1694508958.303505
+2023-09-12 10:55:58,303 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:55:58,304 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:04,311 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:56:04,311 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:04,311 DEBUG logging:102 RECV: 
+2023-09-12 10:56:04,311 DEBUG logging:102 Processing: 
+2023-09-12 10:56:04,311 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:04,435 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:07,476 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:07,477 DEBUG logging:102 Running transaction 6
+2023-09-12 10:56:07,477 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:56:07,477 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508967.477622
+2023-09-12 10:56:07,479 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:07,479 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:07,521 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:07,521 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:56:07,521 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:56:07,521 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:56:07,521 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:56:07,521 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:56:07,521 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:56:07,521 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:56:07,521 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:07,522 DEBUG logging:102 [0, 16672]
+2023-09-12 10:56:07,522 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:56:07,522 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:07,522 DEBUG logging:102 Running transaction 7
+2023-09-12 10:56:07,522 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x3e 0x5d 0x0 0x0 0xd9 0x7c
+2023-09-12 10:56:07,522 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508967.521216 Current Time stamp - 1694508967.522733
+2023-09-12 10:56:07,522 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:56:07,525 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:07,525 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:13,538 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:56:13,539 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:13,539 DEBUG logging:102 RECV: 
+2023-09-12 10:56:13,539 DEBUG logging:102 Processing: 
+2023-09-12 10:56:13,539 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:13,663 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:15,708 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:15,708 DEBUG logging:102 Running transaction 8
+2023-09-12 10:56:15,708 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:56:15,708 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508975.708555
+2023-09-12 10:56:15,711 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:15,711 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:21,730 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:56:21,730 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:21,730 DEBUG logging:102 RECV: 
+2023-09-12 10:56:21,730 DEBUG logging:102 Processing: 
+2023-09-12 10:56:21,730 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:21,854 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:31,007 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 10:56:31,007 DEBUG logging:102 Running transaction 1
+2023-09-12 10:56:31,007 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x40 0x40 0x77 0xc4
+2023-09-12 10:56:31,007 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:31,007 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:37,160 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 10:56:37,160 DEBUG logging:102 Processing: 
+2023-09-12 10:56:37,160 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:37,160 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:37,196 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:37,196 DEBUG logging:102 Running transaction 2
+2023-09-12 10:56:37,196 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:56:37,196 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694508997.196946
+2023-09-12 10:56:37,199 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:37,199 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:37,240 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:37,240 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:56:37,240 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:56:37,240 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:56:37,241 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:56:37,241 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:56:37,241 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:56:37,241 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:56:37,241 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:37,241 DEBUG logging:102 [0, 16448]
+2023-09-12 10:56:37,241 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:56:37,241 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:37,241 DEBUG logging:102 Running transaction 3
+2023-09-12 10:56:37,241 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x12 0xae 0x0 0x0 0x21 0xdf
+2023-09-12 10:56:37,241 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694508997.240169 Current Time stamp - 1694508997.241205
+2023-09-12 10:56:37,241 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:56:37,244 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:37,244 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:43,268 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:56:43,268 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:43,268 DEBUG logging:102 RECV: 
+2023-09-12 10:56:43,268 DEBUG logging:102 Processing: 
+2023-09-12 10:56:43,269 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:43,390 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:43,425 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:43,425 DEBUG logging:102 Running transaction 4
+2023-09-12 10:56:43,425 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:56:43,425 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694509003.425416
+2023-09-12 10:56:43,427 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:43,427 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:43,469 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:43,469 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:56:43,469 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x40 0x40 0xca 0x3
+2023-09-12 10:56:43,469 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x40 0x40
+2023-09-12 10:56:43,469 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:56:43,469 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:56:43,469 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:56:43,469 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:56:43,469 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:43,470 DEBUG logging:102 [0, 16448]
+2023-09-12 10:56:43,470 DEBUG logging:102 handle: [b'@@', b'\x00\x00']
+2023-09-12 10:56:45,470 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:45,470 DEBUG logging:102 Running transaction 5
+2023-09-12 10:56:45,470 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2a 0x0 0x2 0x4 0x0 0x0 0x41 0x20 0x76 0x7c
+2023-09-12 10:56:45,471 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694509003.469027 Current Time stamp - 1694509005.471317
+2023-09-12 10:56:45,471 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:45,471 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:51,485 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:56:51,485 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:51,485 DEBUG logging:102 RECV: 
+2023-09-12 10:56:51,485 DEBUG logging:102 Processing: 
+2023-09-12 10:56:51,485 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:56:51,594 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:54,630 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:54,630 DEBUG logging:102 Running transaction 6
+2023-09-12 10:56:54,630 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2a 0x0 0x2 0xe4 0xf3
+2023-09-12 10:56:54,630 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694509014.630467
+2023-09-12 10:56:54,633 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:54,633 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:56:54,674 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:56:54,674 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:56:54,674 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x41 0x20 0xcb 0xbb
+2023-09-12 10:56:54,675 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x41 0x20
+2023-09-12 10:56:54,675 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 10:56:54,675 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 10:56:54,675 DEBUG logging:102 Adding transaction 1
+2023-09-12 10:56:54,675 DEBUG logging:102 Getting transaction 1
+2023-09-12 10:56:54,675 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:56:54,675 DEBUG logging:102 [0, 16672]
+2023-09-12 10:56:54,675 DEBUG logging:102 handle: [b'A ', b'\x00\x00']
+2023-09-12 10:56:54,675 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:56:54,675 DEBUG logging:102 Running transaction 7
+2023-09-12 10:56:54,675 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x3e 0x5d 0x0 0x0 0xd9 0x7c
+2023-09-12 10:56:54,675 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694509014.674685 Current Time stamp - 1694509014.675707
+2023-09-12 10:56:54,675 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 10:56:54,678 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:56:54,679 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:57:00,694 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:57:00,694 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:57:00,694 DEBUG logging:102 RECV: 
+2023-09-12 10:57:00,694 DEBUG logging:102 Processing: 
+2023-09-12 10:57:00,694 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:57:00,802 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 10:57:02,841 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 10:57:02,841 DEBUG logging:102 Running transaction 8
+2023-09-12 10:57:02,841 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 10:57:02,841 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694509022.841373
+2023-09-12 10:57:02,844 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 10:57:02,844 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 10:57:08,868 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 10:57:08,868 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 10:57:08,868 DEBUG logging:102 RECV: 
+2023-09-12 10:57:08,869 DEBUG logging:102 Processing: 
+2023-09-12 10:57:08,869 DEBUG logging:102 Getting transaction 0
+2023-09-12 10:57:08,993 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:14:26,240 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:14:26,240 DEBUG logging:102 Running transaction 1
+2023-09-12 11:14:26,240 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:14:26,240 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:14:26,241 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:14:26,283 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:14:26,283 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:14:26,283 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:14:26,283 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:14:26,283 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:14:26,283 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:14:26,283 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:14:26,283 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:14:26,283 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:14:26,284 DEBUG logging:102 [64000, 0]
+2023-09-12 11:14:26,284 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:16:05,751 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:16:05,751 DEBUG logging:102 Running transaction 1
+2023-09-12 11:16:05,751 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:16:05,751 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:16:05,752 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:16:05,792 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:16:05,792 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:16:05,792 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:16:05,792 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:16:05,793 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:16:05,793 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:16:05,793 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:16:05,793 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:16:05,793 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:16:05,793 DEBUG logging:102 [64000, 0]
+2023-09-12 11:16:05,793 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:16:05,793 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:16:05,793 DEBUG logging:102 Running transaction 2
+2023-09-12 11:16:05,793 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:16:05,793 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510165.792947 Current Time stamp - 1694510165.793962
+2023-09-12 11:16:05,793 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:16:05,796 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:16:05,797 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:16:11,945 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:16:11,945 DEBUG logging:102 Processing: 
+2023-09-12 11:16:11,945 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:16:11,945 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:16:48,491 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:16:48,491 DEBUG logging:102 Running transaction 1
+2023-09-12 11:16:48,491 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:16:48,491 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:16:48,491 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:16:54,638 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:16:54,638 DEBUG logging:102 Processing: 
+2023-09-12 11:16:54,639 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:16:54,639 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:16:54,673 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:16:54,673 DEBUG logging:102 Running transaction 2
+2023-09-12 11:16:54,673 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:16:54,673 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510214.673907
+2023-09-12 11:16:54,676 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:16:54,676 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:16:54,717 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:16:54,718 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:16:54,718 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:16:54,718 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:16:54,718 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:16:54,718 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:16:54,718 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:16:54,718 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:16:54,719 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:16:54,719 DEBUG logging:102 [64000, 0]
+2023-09-12 11:16:54,719 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:16:54,719 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:16:54,719 DEBUG logging:102 Running transaction 3
+2023-09-12 11:16:54,719 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:16:54,719 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510214.717924 Current Time stamp - 1694510214.719438
+2023-09-12 11:16:54,719 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:16:54,722 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:16:54,722 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:00,731 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:00,731 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:00,731 DEBUG logging:102 RECV: 
+2023-09-12 11:17:00,731 DEBUG logging:102 Processing: 
+2023-09-12 11:17:00,731 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:00,856 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:02,891 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:02,891 DEBUG logging:102 Running transaction 4
+2023-09-12 11:17:02,891 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xc3 0x50 0x0 0x0 0x78 0x1f
+2023-09-12 11:17:02,891 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510222.891917
+2023-09-12 11:17:02,894 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:02,894 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:08,917 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:08,917 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:08,917 DEBUG logging:102 RECV: 
+2023-09-12 11:17:08,917 DEBUG logging:102 Processing: 
+2023-09-12 11:17:08,917 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:09,041 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:12,076 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:12,076 DEBUG logging:102 Running transaction 5
+2023-09-12 11:17:12,078 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:17:12,078 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510232.078396
+2023-09-12 11:17:12,080 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:12,081 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:12,122 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:12,122 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xc3 0x50 0x0 0x0 0xc6 0x66
+2023-09-12 11:17:12,122 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xc3 0x50 0x0 0x0 0xc6 0x66
+2023-09-12 11:17:12,122 DEBUG logging:102 Getting Frame - 0x3 0x4 0xc3 0x50 0x0 0x0
+2023-09-12 11:17:12,122 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:17:12,123 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:17:12,123 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:17:12,123 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:17:12,123 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:12,123 DEBUG logging:102 [50000, 0]
+2023-09-12 11:17:12,123 DEBUG logging:102 handle: [b'\x00\x00', b'\xc3P']
+2023-09-12 11:17:12,123 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:12,123 DEBUG logging:102 Running transaction 6
+2023-09-12 11:17:12,123 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:17:12,123 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510232.122315 Current Time stamp - 1694510232.12395
+2023-09-12 11:17:12,123 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:17:12,126 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:12,126 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:18,129 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:18,129 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:18,129 DEBUG logging:102 RECV: 
+2023-09-12 11:17:18,129 DEBUG logging:102 Processing: 
+2023-09-12 11:17:18,129 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:18,238 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:20,276 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:20,276 DEBUG logging:102 Running transaction 7
+2023-09-12 11:17:20,276 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:17:20,278 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510240.278375
+2023-09-12 11:17:20,280 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:20,280 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:26,306 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:26,306 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:26,306 DEBUG logging:102 RECV: 
+2023-09-12 11:17:26,306 DEBUG logging:102 Processing: 
+2023-09-12 11:17:26,306 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:26,417 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:26,460 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:26,460 DEBUG logging:102 Running transaction 8
+2023-09-12 11:17:26,460 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:17:26,461 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510246.461426
+2023-09-12 11:17:26,463 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:26,463 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:32,485 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:32,485 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:32,485 DEBUG logging:102 RECV: 
+2023-09-12 11:17:32,485 DEBUG logging:102 Processing: 
+2023-09-12 11:17:32,485 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:32,610 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:42,285 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:17:42,287 DEBUG logging:102 Running transaction 1
+2023-09-12 11:17:42,287 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:17:42,287 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:42,287 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:42,329 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:42,329 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:17:42,329 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:17:42,329 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:17:42,330 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:17:42,330 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:17:42,330 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:17:42,330 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:17:42,330 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:42,330 DEBUG logging:102 [64000, 0]
+2023-09-12 11:17:42,330 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:17:42,330 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:42,330 DEBUG logging:102 Running transaction 2
+2023-09-12 11:17:42,330 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:17:42,330 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510262.329144 Current Time stamp - 1694510262.330181
+2023-09-12 11:17:42,330 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:17:42,333 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:42,333 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:48,483 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:17:48,483 DEBUG logging:102 Processing: 
+2023-09-12 11:17:48,483 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:48,483 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:50,519 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:50,519 DEBUG logging:102 Running transaction 3
+2023-09-12 11:17:50,519 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7d 0x0 0x0 0x0 0x5c 0x26
+2023-09-12 11:17:50,519 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510270.519761
+2023-09-12 11:17:50,522 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:50,522 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:56,531 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:17:56,531 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:56,532 DEBUG logging:102 RECV: 
+2023-09-12 11:17:56,532 DEBUG logging:102 Processing: 
+2023-09-12 11:17:56,532 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:17:56,655 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:59,694 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:59,694 DEBUG logging:102 Running transaction 4
+2023-09-12 11:17:59,694 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:17:59,694 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510279.694754
+2023-09-12 11:17:59,697 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:59,697 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:17:59,738 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:17:59,739 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:17:59,739 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:17:59,739 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7d 0x0 0x0 0x0
+2023-09-12 11:17:59,739 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:17:59,739 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:17:59,739 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:17:59,739 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:17:59,739 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:17:59,739 DEBUG logging:102 [32000, 0]
+2023-09-12 11:17:59,739 DEBUG logging:102 handle: [b'\x00\x00', b'}\x00']
+2023-09-12 11:17:59,739 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:17:59,739 DEBUG logging:102 Running transaction 5
+2023-09-12 11:17:59,739 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:17:59,739 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510279.73852 Current Time stamp - 1694510279.739567
+2023-09-12 11:17:59,739 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:17:59,742 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:17:59,742 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:18:05,765 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:18:05,765 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:18:05,765 DEBUG logging:102 RECV: 
+2023-09-12 11:18:05,765 DEBUG logging:102 Processing: 
+2023-09-12 11:18:05,765 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:18:05,891 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:18:07,926 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:18:07,926 DEBUG logging:102 Running transaction 6
+2023-09-12 11:18:07,926 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:18:07,926 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510287.926112
+2023-09-12 11:18:07,929 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:18:07,929 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:18:13,960 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:18:13,960 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:18:13,960 DEBUG logging:102 RECV: 
+2023-09-12 11:18:13,960 DEBUG logging:102 Processing: 
+2023-09-12 11:18:13,960 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:18:14,070 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:18:14,109 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:18:14,109 DEBUG logging:102 Running transaction 7
+2023-09-12 11:18:14,109 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:18:14,109 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510294.109845
+2023-09-12 11:18:14,112 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:18:14,112 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:18:20,129 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:18:20,129 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:18:20,129 DEBUG logging:102 RECV: 
+2023-09-12 11:18:20,129 DEBUG logging:102 Processing: 
+2023-09-12 11:18:20,129 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:18:20,253 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:25,452 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:19:25,452 DEBUG logging:102 Running transaction 1
+2023-09-12 11:19:25,452 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:19:25,452 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:25,453 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:25,495 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:19:25,495 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:19:25,495 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:19:25,495 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:19:25,495 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:19:25,495 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:19:25,495 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:19:25,495 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:19:25,495 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:25,495 DEBUG logging:102 [64000, 0]
+2023-09-12 11:19:25,495 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:19:25,495 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:25,495 DEBUG logging:102 Running transaction 2
+2023-09-12 11:19:25,496 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:19:25,496 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510365.495154 Current Time stamp - 1694510365.496682
+2023-09-12 11:19:25,496 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:19:25,499 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:25,499 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:31,655 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:19:31,655 DEBUG logging:102 Processing: 
+2023-09-12 11:19:31,655 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:19:31,655 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:33,694 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:33,694 DEBUG logging:102 Running transaction 3
+2023-09-12 11:19:33,694 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7d 0x0 0x0 0x0 0x5c 0x26
+2023-09-12 11:19:33,694 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510373.694421
+2023-09-12 11:19:33,697 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:33,697 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:39,717 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:19:39,717 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:19:39,717 DEBUG logging:102 RECV: 
+2023-09-12 11:19:39,717 DEBUG logging:102 Processing: 
+2023-09-12 11:19:39,718 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:19:39,841 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:42,885 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:42,885 DEBUG logging:102 Running transaction 4
+2023-09-12 11:19:42,885 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:19:42,885 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510382.885038
+2023-09-12 11:19:42,888 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:42,888 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:42,929 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:19:42,929 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:19:42,929 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:19:42,929 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7d 0x0 0x0 0x0
+2023-09-12 11:19:42,930 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:19:42,930 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:19:42,930 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:19:42,930 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:19:42,930 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:42,930 DEBUG logging:102 [32000, 0]
+2023-09-12 11:19:42,930 DEBUG logging:102 handle: [b'\x00\x00', b'}\x00']
+2023-09-12 11:19:42,930 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:42,930 DEBUG logging:102 Running transaction 5
+2023-09-12 11:19:42,930 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:19:42,930 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694510382.929843 Current Time stamp - 1694510382.930882
+2023-09-12 11:19:42,930 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:19:42,933 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:42,933 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:48,962 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:19:48,962 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:19:48,962 DEBUG logging:102 RECV: 
+2023-09-12 11:19:48,962 DEBUG logging:102 Processing: 
+2023-09-12 11:19:48,962 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:19:49,086 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:51,130 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:51,131 DEBUG logging:102 Running transaction 6
+2023-09-12 11:19:51,131 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:19:51,131 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510391.131868
+2023-09-12 11:19:51,134 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:51,134 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:19:57,161 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:19:57,161 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:19:57,161 DEBUG logging:102 RECV: 
+2023-09-12 11:19:57,161 DEBUG logging:102 Processing: 
+2023-09-12 11:19:57,161 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:19:57,285 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:19:57,321 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:19:57,321 DEBUG logging:102 Running transaction 7
+2023-09-12 11:19:57,321 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:19:57,321 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694510397.321161
+2023-09-12 11:19:57,324 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:19:57,324 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:20:03,351 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:20:03,351 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:20:03,351 DEBUG logging:102 RECV: 
+2023-09-12 11:20:03,351 DEBUG logging:102 Processing: 
+2023-09-12 11:20:03,351 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:20:03,459 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:31:43,568 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:31:43,569 DEBUG logging:102 Running transaction 1
+2023-09-12 11:31:43,569 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:31:43,569 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:31:43,569 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:31:43,611 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:31:43,611 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:31:43,611 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:31:43,611 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:31:43,611 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:31:43,611 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:31:43,611 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:31:43,611 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:31:43,611 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:31:43,611 DEBUG logging:102 [64000, 0]
+2023-09-12 11:31:43,611 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:31:43,611 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:31:43,611 DEBUG logging:102 Running transaction 2
+2023-09-12 11:31:43,612 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:31:43,613 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511103.61118 Current Time stamp - 1694511103.612975
+2023-09-12 11:31:43,613 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:31:43,615 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:31:43,615 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:31:49,764 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:31:49,764 DEBUG logging:102 Processing: 
+2023-09-12 11:31:49,764 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:31:49,764 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:31:51,801 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:31:51,801 DEBUG logging:102 Running transaction 3
+2023-09-12 11:31:51,801 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7d 0x0 0x0 0x0 0xdc 0xc
+2023-09-12 11:31:51,801 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511111.8012
+2023-09-12 11:31:51,803 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:31:51,804 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:31:57,809 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:31:57,809 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:31:57,809 DEBUG logging:102 RECV: 
+2023-09-12 11:31:57,809 DEBUG logging:102 Processing: 
+2023-09-12 11:31:57,809 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:31:57,932 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:00,971 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:00,971 DEBUG logging:102 Running transaction 4
+2023-09-12 11:32:00,971 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:32:00,971 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511120.971073
+2023-09-12 11:32:00,973 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:00,973 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:01,014 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:01,015 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:32:01,015 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 11:32:01,015 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7d 0x0 0x0 0x0
+2023-09-12 11:32:01,015 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:32:01,015 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:32:01,015 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:32:01,015 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:32:01,015 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:01,015 DEBUG logging:102 [32000, 0]
+2023-09-12 11:32:01,015 DEBUG logging:102 handle: [b'\x00\x00', b'}\x00']
+2023-09-12 11:32:01,016 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:01,016 DEBUG logging:102 Running transaction 5
+2023-09-12 11:32:01,016 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:32:01,016 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511121.01477 Current Time stamp - 1694511121.016312
+2023-09-12 11:32:01,016 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:32:01,019 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:01,019 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:07,035 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:07,035 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:07,035 DEBUG logging:102 RECV: 
+2023-09-12 11:32:07,035 DEBUG logging:102 Processing: 
+2023-09-12 11:32:07,035 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:07,144 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:09,185 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:09,185 DEBUG logging:102 Running transaction 6
+2023-09-12 11:32:09,185 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0xf4 0xb8
+2023-09-12 11:32:09,185 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511129.18501
+2023-09-12 11:32:09,187 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:09,187 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:15,208 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:15,208 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:15,208 DEBUG logging:102 RECV: 
+2023-09-12 11:32:15,209 DEBUG logging:102 Processing: 
+2023-09-12 11:32:15,209 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:15,331 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:15,368 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:15,368 DEBUG logging:102 Running transaction 7
+2023-09-12 11:32:15,369 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:32:15,369 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511135.36957
+2023-09-12 11:32:15,371 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:15,372 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:21,376 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:21,376 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:21,376 DEBUG logging:102 RECV: 
+2023-09-12 11:32:21,376 DEBUG logging:102 Processing: 
+2023-09-12 11:32:21,376 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:21,500 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:30,108 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:32:30,109 DEBUG logging:102 Running transaction 1
+2023-09-12 11:32:30,109 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:32:30,109 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:30,109 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:30,151 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:30,151 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:32:30,151 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:32:30,151 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:32:30,152 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:32:30,152 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:32:30,152 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:32:30,152 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:32:30,152 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:30,152 DEBUG logging:102 [64000, 0]
+2023-09-12 11:32:30,152 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:32:30,153 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:30,153 DEBUG logging:102 Running transaction 2
+2023-09-12 11:32:30,153 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:32:30,153 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511150.151425 Current Time stamp - 1694511150.153006
+2023-09-12 11:32:30,153 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:32:30,155 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:30,155 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:36,285 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:32:36,285 DEBUG logging:102 Processing: 
+2023-09-12 11:32:36,285 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:36,285 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:37,321 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:37,322 DEBUG logging:102 Running transaction 3
+2023-09-12 11:32:37,322 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0xc4 0xed
+2023-09-12 11:32:37,322 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511157.322196
+2023-09-12 11:32:37,324 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:37,324 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:43,354 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:43,354 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:43,354 DEBUG logging:102 RECV: 
+2023-09-12 11:32:43,354 DEBUG logging:102 Processing: 
+2023-09-12 11:32:43,354 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:43,480 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:44,522 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:44,522 DEBUG logging:102 Running transaction 4
+2023-09-12 11:32:44,522 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:32:44,522 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511164.522953
+2023-09-12 11:32:44,525 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:44,525 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:44,566 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:44,566 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:32:44,566 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:32:44,566 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7 0xd0 0x0 0x0
+2023-09-12 11:32:44,566 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:32:44,566 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:32:44,566 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:32:44,566 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:32:44,566 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:44,566 DEBUG logging:102 [2000, 0]
+2023-09-12 11:32:44,568 DEBUG logging:102 handle: [b'\x00\x00', b'\x07\xd0']
+2023-09-12 11:32:44,568 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:44,568 DEBUG logging:102 Running transaction 5
+2023-09-12 11:32:44,568 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:32:44,568 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511164.566837 Current Time stamp - 1694511164.568406
+2023-09-12 11:32:44,568 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:32:44,570 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:44,570 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:50,598 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:50,599 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:50,599 DEBUG logging:102 RECV: 
+2023-09-12 11:32:50,599 DEBUG logging:102 Processing: 
+2023-09-12 11:32:50,599 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:50,722 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:51,761 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:51,761 DEBUG logging:102 Running transaction 6
+2023-09-12 11:32:51,761 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0xf4 0xb8
+2023-09-12 11:32:51,761 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511171.761922
+2023-09-12 11:32:51,764 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:51,764 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:32:57,777 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:32:57,777 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:32:57,777 DEBUG logging:102 RECV: 
+2023-09-12 11:32:57,777 DEBUG logging:102 Processing: 
+2023-09-12 11:32:57,777 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:32:57,885 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:32:57,928 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:32:57,928 DEBUG logging:102 Running transaction 7
+2023-09-12 11:32:57,929 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:32:57,929 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511177.929319
+2023-09-12 11:32:57,931 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:32:57,931 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:33:03,944 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:33:03,944 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:33:03,944 DEBUG logging:102 RECV: 
+2023-09-12 11:33:03,944 DEBUG logging:102 Processing: 
+2023-09-12 11:33:03,944 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:33:04,053 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:33:49,240 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:33:49,241 DEBUG logging:102 Running transaction 1
+2023-09-12 11:33:49,241 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:33:49,241 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:33:49,242 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:33:49,282 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:33:49,283 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:33:49,283 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:33:49,283 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:33:49,283 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:33:49,283 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:33:49,283 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:33:49,283 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:33:49,284 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:33:49,284 DEBUG logging:102 [64000, 0]
+2023-09-12 11:33:49,284 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:33:49,284 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:33:49,284 DEBUG logging:102 Running transaction 2
+2023-09-12 11:33:49,284 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 11:33:49,284 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511229.282667 Current Time stamp - 1694511229.284329
+2023-09-12 11:33:49,284 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:33:49,286 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:33:49,286 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:33:55,415 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:33:55,415 DEBUG logging:102 Processing: 
+2023-09-12 11:33:55,415 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:33:55,415 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:33:56,462 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:33:56,462 DEBUG logging:102 Running transaction 3
+2023-09-12 11:33:56,463 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0x44 0xc7
+2023-09-12 11:33:56,463 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511236.463264
+2023-09-12 11:33:56,465 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:33:56,465 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:34:02,466 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:34:02,466 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:34:02,466 DEBUG logging:102 RECV: 
+2023-09-12 11:34:02,466 DEBUG logging:102 Processing: 
+2023-09-12 11:34:02,466 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:34:02,589 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:34:03,624 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:34:03,624 DEBUG logging:102 Running transaction 4
+2023-09-12 11:34:03,625 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:34:03,625 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511243.625286
+2023-09-12 11:34:03,627 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:34:03,627 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:34:03,668 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:34:03,669 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:34:03,669 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:34:03,669 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7 0xd0 0x0 0x0
+2023-09-12 11:34:03,669 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:34:03,669 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:34:03,669 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:34:03,669 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:34:03,669 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:34:03,669 DEBUG logging:102 [2000, 0]
+2023-09-12 11:34:03,669 DEBUG logging:102 handle: [b'\x00\x00', b'\x07\xd0']
+2023-09-12 11:34:03,669 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:34:03,669 DEBUG logging:102 Running transaction 5
+2023-09-12 11:34:03,669 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x9 0xf2 0x0 0x0 0xe7 0x29
+2023-09-12 11:34:03,670 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511243.668665 Current Time stamp - 1694511243.670271
+2023-09-12 11:34:03,670 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:34:03,672 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:34:03,672 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:34:09,675 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:34:09,675 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:34:09,675 DEBUG logging:102 RECV: 
+2023-09-12 11:34:09,675 DEBUG logging:102 Processing: 
+2023-09-12 11:34:09,675 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:34:09,799 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:34:10,842 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:34:10,842 DEBUG logging:102 Running transaction 6
+2023-09-12 11:34:10,843 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:34:10,843 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511250.843318
+2023-09-12 11:34:10,845 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:34:10,845 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:34:16,858 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:34:16,858 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:34:16,858 DEBUG logging:102 RECV: 
+2023-09-12 11:34:16,858 DEBUG logging:102 Processing: 
+2023-09-12 11:34:16,858 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:34:16,968 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:34:17,009 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:34:17,009 DEBUG logging:102 Running transaction 7
+2023-09-12 11:34:17,009 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:34:17,009 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511257.009434
+2023-09-12 11:34:17,012 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:34:17,012 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:34:23,036 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:34:23,036 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:34:23,036 DEBUG logging:102 RECV: 
+2023-09-12 11:34:23,036 DEBUG logging:102 Processing: 
+2023-09-12 11:34:23,036 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:34:23,162 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:35:02,772 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:35:02,772 DEBUG logging:102 Running transaction 1
+2023-09-12 11:35:02,772 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0x44 0xc7
+2023-09-12 11:35:02,772 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:35:02,772 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:35:08,898 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:35:08,899 DEBUG logging:102 Processing: 
+2023-09-12 11:35:08,899 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:35:08,899 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:35:09,934 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:35:09,935 DEBUG logging:102 Running transaction 2
+2023-09-12 11:35:09,935 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:35:09,935 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511309.935956
+2023-09-12 11:35:09,938 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:35:09,939 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:35:09,979 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:35:09,979 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:35:09,979 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:35:09,979 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7 0xd0 0x0 0x0
+2023-09-12 11:35:09,979 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:35:09,980 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:35:09,980 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:35:09,980 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:35:09,980 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:35:09,980 DEBUG logging:102 [2000, 0]
+2023-09-12 11:35:09,980 DEBUG logging:102 handle: [b'\x00\x00', b'\x07\xd0']
+2023-09-12 11:35:09,980 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:35:09,980 DEBUG logging:102 Running transaction 3
+2023-09-12 11:35:09,980 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 11:35:09,980 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511309.979719 Current Time stamp - 1694511309.980762
+2023-09-12 11:35:09,980 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:35:09,983 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:35:09,983 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:35:16,013 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:35:16,013 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:35:16,013 DEBUG logging:102 RECV: 
+2023-09-12 11:35:16,013 DEBUG logging:102 Processing: 
+2023-09-12 11:35:16,013 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:35:16,121 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:35:17,157 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:35:17,157 DEBUG logging:102 Running transaction 4
+2023-09-12 11:35:17,157 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:35:17,158 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511317.158313
+2023-09-12 11:35:17,160 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:35:17,160 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:35:23,161 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:35:23,161 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:35:23,161 DEBUG logging:102 RECV: 
+2023-09-12 11:35:23,161 DEBUG logging:102 Processing: 
+2023-09-12 11:35:23,161 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:35:23,285 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:35:23,321 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:35:23,321 DEBUG logging:102 Running transaction 5
+2023-09-12 11:35:23,321 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:35:23,321 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511323.321905
+2023-09-12 11:35:23,324 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:35:23,324 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:35:29,332 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:35:29,332 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:35:29,332 DEBUG logging:102 RECV: 
+2023-09-12 11:35:29,332 DEBUG logging:102 Processing: 
+2023-09-12 11:35:29,332 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:35:29,456 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:37:43,325 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:37:43,325 DEBUG logging:102 Running transaction 1
+2023-09-12 11:37:43,325 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0x44 0xc7
+2023-09-12 11:37:43,325 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:37:43,326 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:37:49,462 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:37:49,462 DEBUG logging:102 Processing: 
+2023-09-12 11:37:49,462 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:37:49,462 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:37:50,499 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:37:50,499 DEBUG logging:102 Running transaction 2
+2023-09-12 11:37:50,500 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:37:50,500 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511470.500568
+2023-09-12 11:37:50,502 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:37:50,502 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:37:50,544 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:37:50,544 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:37:50,544 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:37:50,544 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7 0xd0 0x0 0x0
+2023-09-12 11:37:50,545 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:37:50,545 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:37:50,545 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:37:50,545 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:37:50,545 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:37:50,545 DEBUG logging:102 [2000, 0]
+2023-09-12 11:37:50,545 DEBUG logging:102 handle: [b'\x00\x00', b'\x07\xd0']
+2023-09-12 11:37:50,545 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:37:50,545 DEBUG logging:102 Running transaction 3
+2023-09-12 11:37:50,545 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 11:37:50,545 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511470.544528 Current Time stamp - 1694511470.545557
+2023-09-12 11:37:50,545 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:37:50,548 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:37:50,548 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:37:56,581 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:37:56,581 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:37:56,582 DEBUG logging:102 RECV: 
+2023-09-12 11:37:56,582 DEBUG logging:102 Processing: 
+2023-09-12 11:37:56,582 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:37:56,691 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:37:57,728 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:37:57,728 DEBUG logging:102 Running transaction 4
+2023-09-12 11:37:57,728 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:37:57,728 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511477.72836
+2023-09-12 11:37:57,730 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:37:57,730 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:38:03,750 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:38:03,750 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:38:03,750 DEBUG logging:102 RECV: 
+2023-09-12 11:38:03,750 DEBUG logging:102 Processing: 
+2023-09-12 11:38:03,750 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:38:03,874 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:38:03,910 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:38:03,910 DEBUG logging:102 Running transaction 5
+2023-09-12 11:38:03,910 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0xc4 0xed
+2023-09-12 11:38:03,910 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511483.910394
+2023-09-12 11:38:03,912 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:38:03,912 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:38:09,928 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:38:09,928 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:38:09,928 DEBUG logging:102 RECV: 
+2023-09-12 11:38:09,928 DEBUG logging:102 Processing: 
+2023-09-12 11:38:09,928 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:38:10,052 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:38:10,090 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:38:10,090 DEBUG logging:102 Running transaction 6
+2023-09-12 11:38:10,090 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:38:10,090 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511490.090247
+2023-09-12 11:38:10,092 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:38:10,092 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:38:16,104 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:38:16,104 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:38:16,104 DEBUG logging:102 RECV: 
+2023-09-12 11:38:16,104 DEBUG logging:102 Processing: 
+2023-09-12 11:38:16,104 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:38:16,229 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:38:17,265 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:38:17,265 DEBUG logging:102 Running transaction 7
+2023-09-12 11:38:17,266 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0xf4 0xb8
+2023-09-12 11:38:17,266 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511497.266793
+2023-09-12 11:38:17,268 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:38:17,268 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:38:23,296 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:38:23,296 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:38:23,296 DEBUG logging:102 RECV: 
+2023-09-12 11:38:23,296 DEBUG logging:102 Processing: 
+2023-09-12 11:38:23,296 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:38:23,420 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:38:23,454 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:38:23,455 DEBUG logging:102 Running transaction 8
+2023-09-12 11:38:23,455 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:38:23,455 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511503.455558
+2023-09-12 11:38:23,457 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:38:23,458 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:38:23,499 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:38:23,499 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:38:23,499 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:38:23,499 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:38:23,499 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:38:23,499 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:38:23,499 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:38:23,499 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:38:23,500 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:38:23,500 DEBUG logging:102 [64000, 0]
+2023-09-12 11:38:23,500 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:38:58,896 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:38:58,896 DEBUG logging:102 Running transaction 1
+2023-09-12 11:38:58,896 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0x44 0xc7
+2023-09-12 11:38:58,896 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:38:58,896 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:05,035 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:39:05,035 DEBUG logging:102 Processing: 
+2023-09-12 11:39:05,035 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:05,035 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:06,072 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:06,072 DEBUG logging:102 Running transaction 2
+2023-09-12 11:39:06,072 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x2 0x0 0x2 0x64 0xfb
+2023-09-12 11:39:06,072 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511546.072226
+2023-09-12 11:39:06,074 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:06,074 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:06,116 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:06,116 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:39:06,116 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7 0xd0 0x0 0x0 0xfa 0xbe
+2023-09-12 11:39:06,116 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7 0xd0 0x0 0x0
+2023-09-12 11:39:06,116 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:39:06,116 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:39:06,117 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:39:06,117 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:39:06,117 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:06,117 DEBUG logging:102 [2000, 0]
+2023-09-12 11:39:06,117 DEBUG logging:102 handle: [b'\x00\x00', b'\x07\xd0']
+2023-09-12 11:39:06,117 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:06,117 DEBUG logging:102 Running transaction 3
+2023-09-12 11:39:06,117 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0xc2 0x9a
+2023-09-12 11:39:06,117 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694511546.116353 Current Time stamp - 1694511546.117387
+2023-09-12 11:39:06,117 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:39:06,120 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:06,120 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:12,142 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:39:12,142 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:12,142 DEBUG logging:102 RECV: 
+2023-09-12 11:39:12,142 DEBUG logging:102 Processing: 
+2023-09-12 11:39:12,142 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:12,268 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:13,307 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:13,307 DEBUG logging:102 Running transaction 4
+2023-09-12 11:39:13,308 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x2 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0x74 0x92
+2023-09-12 11:39:13,308 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511553.308684
+2023-09-12 11:39:13,310 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:13,310 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:19,313 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:39:19,313 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:19,313 DEBUG logging:102 RECV: 
+2023-09-12 11:39:19,313 DEBUG logging:102 Processing: 
+2023-09-12 11:39:19,313 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:19,439 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:19,475 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:19,475 DEBUG logging:102 Running transaction 5
+2023-09-12 11:39:19,475 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7 0xd0 0x0 0x0 0xc4 0xed
+2023-09-12 11:39:19,475 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511559.475187
+2023-09-12 11:39:19,477 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:19,477 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:25,502 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:39:25,502 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:25,502 DEBUG logging:102 RECV: 
+2023-09-12 11:39:25,502 DEBUG logging:102 Processing: 
+2023-09-12 11:39:25,502 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:25,625 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:26,665 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:26,665 DEBUG logging:102 Running transaction 6
+2023-09-12 11:39:26,665 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xc 0x0 0x2 0x4 0xe7 0x0 0xff 0xff 0xf2 0xc2
+2023-09-12 11:39:26,665 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511566.665154
+2023-09-12 11:39:26,667 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:26,667 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:32,674 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:39:32,674 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:32,674 DEBUG logging:102 RECV: 
+2023-09-12 11:39:32,674 DEBUG logging:102 Processing: 
+2023-09-12 11:39:32,674 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:32,798 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:33,839 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:33,839 DEBUG logging:102 Running transaction 7
+2023-09-12 11:39:33,839 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0xf4 0xb8
+2023-09-12 11:39:33,839 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511573.839861
+2023-09-12 11:39:33,842 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:33,842 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:39,850 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 11:39:39,850 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:39,850 DEBUG logging:102 RECV: 
+2023-09-12 11:39:39,850 DEBUG logging:102 Processing: 
+2023-09-12 11:39:39,850 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:39:39,974 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:40,010 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:39:40,010 DEBUG logging:102 Running transaction 8
+2023-09-12 11:39:40,010 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 11:39:40,010 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694511580.010164
+2023-09-12 11:39:40,012 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:39:40,012 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:39:40,053 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:39:40,054 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:39:40,054 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 11:39:40,054 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 11:39:40,054 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:39:40,054 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:39:40,054 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:39:40,054 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:39:40,054 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:39:40,054 DEBUG logging:102 [64000, 0]
+2023-09-12 11:39:40,054 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 11:52:46,515 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:52:46,515 DEBUG logging:102 Running transaction 1
+2023-09-12 11:52:46,515 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x0 0x0 0x2 0xc5 0x3b
+2023-09-12 11:52:46,515 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:52:46,516 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:52:46,558 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:52:46,558 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0x0 0x0 0x0 0xfa 0x33
+2023-09-12 11:52:46,558 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0x0 0x0 0x0 0xfa 0x33
+2023-09-12 11:52:46,558 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0x0 0x0 0x0
+2023-09-12 11:52:46,558 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:52:46,558 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:52:46,558 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:52:46,559 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:52:46,559 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:52:46,559 DEBUG logging:102 [0, 0]
+2023-09-12 11:52:46,559 DEBUG logging:102 handle: [b'\x00\x00', b'\x00\x00']
+2023-09-12 11:53:05,917 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:53:05,917 DEBUG logging:102 Running transaction 1
+2023-09-12 11:53:05,917 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:53:05,918 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:53:05,918 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:53:05,959 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:53:05,959 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:53:05,959 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:53:05,959 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:53:05,959 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:53:05,959 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:53:05,959 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:53:05,959 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:53:05,959 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:53:05,960 DEBUG logging:102 [6400, 0]
+2023-09-12 11:53:05,960 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:54:33,557 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:54:33,558 DEBUG logging:102 Running transaction 1
+2023-09-12 11:54:33,558 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:54:33,559 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:54:33,559 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:54:33,600 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:54:33,600 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:54:33,600 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:54:33,600 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:54:33,601 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:54:33,601 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:54:33,601 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:54:33,601 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:54:33,601 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:54:33,601 DEBUG logging:102 [6400, 0]
+2023-09-12 11:54:33,601 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:55:02,201 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:55:02,201 DEBUG logging:102 Running transaction 1
+2023-09-12 11:55:02,201 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:55:02,201 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:02,202 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:02,243 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:55:02,243 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:02,243 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:02,244 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:55:02,244 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:55:02,244 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:55:02,244 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:55:02,244 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:55:02,244 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:55:02,244 DEBUG logging:102 [6400, 0]
+2023-09-12 11:55:02,244 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:55:02,244 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:55:02,245 DEBUG logging:102 Running transaction 2
+2023-09-12 11:55:02,245 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0xc 0x80 0x0 0x0 0x46 0xa7
+2023-09-12 11:55:02,245 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694512502.243831 Current Time stamp - 1694512502.245907
+2023-09-12 11:55:02,245 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:55:02,248 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:02,248 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:08,390 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:55:08,390 DEBUG logging:102 Processing: 
+2023-09-12 11:55:08,390 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:55:08,390 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:55:28,481 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:55:28,481 DEBUG logging:102 Running transaction 1
+2023-09-12 11:55:28,481 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:55:28,482 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:28,482 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:28,523 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:55:28,524 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:28,524 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:28,524 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:55:28,524 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:55:28,524 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:55:28,524 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:55:28,524 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:55:28,525 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:55:28,525 DEBUG logging:102 [6400, 0]
+2023-09-12 11:55:28,525 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:55:28,525 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:55:28,525 DEBUG logging:102 Running transaction 2
+2023-09-12 11:55:28,525 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0xc 0x80 0x0 0x0 0x46 0xa7
+2023-09-12 11:55:28,525 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694512528.523838 Current Time stamp - 1694512528.525379
+2023-09-12 11:55:28,525 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:55:28,527 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:28,528 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:34,679 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:55:34,679 DEBUG logging:102 Processing: 
+2023-09-12 11:55:34,679 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:55:34,679 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:55:44,099 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:55:44,099 DEBUG logging:102 Running transaction 1
+2023-09-12 11:55:44,099 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:55:44,100 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:44,101 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:44,142 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:55:44,142 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:44,142 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:55:44,142 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:55:44,142 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:55:44,143 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:55:44,143 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:55:44,143 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:55:44,143 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:55:44,143 DEBUG logging:102 [6400, 0]
+2023-09-12 11:55:44,143 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:55:44,143 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:55:44,143 DEBUG logging:102 Running transaction 2
+2023-09-12 11:55:44,143 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0xf3 0x80 0xff 0xff 0x77 0x3
+2023-09-12 11:55:44,143 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694512544.142322 Current Time stamp - 1694512544.14336
+2023-09-12 11:55:44,143 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:55:44,146 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:55:44,146 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:55:50,298 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:55:50,298 DEBUG logging:102 Processing: 
+2023-09-12 11:55:50,299 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:55:50,299 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:56:07,295 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:56:07,295 DEBUG logging:102 Running transaction 1
+2023-09-12 11:56:07,295 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:56:07,295 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:56:07,296 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:56:07,337 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:56:07,337 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:56:07,337 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:56:07,337 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:56:07,337 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:56:07,337 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:56:07,337 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:56:07,337 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:56:07,337 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:56:07,338 DEBUG logging:102 [6400, 0]
+2023-09-12 11:56:07,338 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:56:07,338 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:56:07,338 DEBUG logging:102 Running transaction 2
+2023-09-12 11:56:07,338 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0x43 0x43
+2023-09-12 11:56:07,338 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694512567.337173 Current Time stamp - 1694512567.338721
+2023-09-12 11:56:07,338 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:56:07,341 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:56:07,341 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:56:13,487 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:56:13,487 DEBUG logging:102 Processing: 
+2023-09-12 11:56:13,487 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:56:13,488 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:56:26,877 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 11:56:26,878 DEBUG logging:102 Running transaction 1
+2023-09-12 11:56:26,878 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 11:56:26,878 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:56:26,878 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:56:26,919 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 11:56:26,919 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:56:26,919 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x19 0x0 0x0 0x0 0xfd 0x6f
+2023-09-12 11:56:26,920 DEBUG logging:102 Getting Frame - 0x3 0x4 0x19 0x0 0x0 0x0
+2023-09-12 11:56:26,920 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 11:56:26,920 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 11:56:26,920 DEBUG logging:102 Adding transaction 1
+2023-09-12 11:56:26,920 DEBUG logging:102 Getting transaction 1
+2023-09-12 11:56:26,920 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 11:56:26,920 DEBUG logging:102 [6400, 0]
+2023-09-12 11:56:26,920 DEBUG logging:102 handle: [b'\x00\x00', b'\x19\x00']
+2023-09-12 11:56:26,920 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 11:56:26,920 DEBUG logging:102 Running transaction 2
+2023-09-12 11:56:26,920 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0xda 0x80 0xff 0xff 0x7f 0x5f
+2023-09-12 11:56:26,920 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694512586.919807 Current Time stamp - 1694512586.920816
+2023-09-12 11:56:26,921 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 11:56:26,924 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 11:56:26,924 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 11:56:33,072 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 11:56:33,072 DEBUG logging:102 Processing: 
+2023-09-12 11:56:33,072 DEBUG logging:102 Getting transaction 0
+2023-09-12 11:56:33,072 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:34:16,733 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:34:16,733 DEBUG logging:102 Running transaction 1
+2023-09-12 12:34:16,733 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 12:34:16,733 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:34:16,734 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:34:16,775 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:34:16,775 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x25 0x80 0x0 0x0 0xf0 0xd7
+2023-09-12 12:34:16,775 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x25 0x80 0x0 0x0 0xf0 0xd7
+2023-09-12 12:34:16,775 DEBUG logging:102 Getting Frame - 0x3 0x4 0x25 0x80 0x0 0x0
+2023-09-12 12:34:16,775 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:34:16,776 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:34:16,776 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:34:16,776 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:34:16,776 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:34:16,776 DEBUG logging:102 [9600, 0]
+2023-09-12 12:34:16,776 DEBUG logging:102 handle: [b'\x00\x00', b'%\x80']
+2023-09-12 12:35:11,047 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:35:11,047 DEBUG logging:102 Running transaction 1
+2023-09-12 12:35:11,047 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x6 0x0 0x2 0x25 0x3a
+2023-09-12 12:35:11,047 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:35:11,048 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:35:11,089 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:35:11,089 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x25 0x80 0x0 0x0 0xf0 0xd7
+2023-09-12 12:35:11,089 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x25 0x80 0x0 0x0 0xf0 0xd7
+2023-09-12 12:35:11,089 DEBUG logging:102 Getting Frame - 0x3 0x4 0x25 0x80 0x0 0x0
+2023-09-12 12:35:11,089 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:35:11,089 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:35:11,089 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:35:11,090 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:35:11,090 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:35:11,090 DEBUG logging:102 [9600, 0]
+2023-09-12 12:35:11,090 DEBUG logging:102 handle: [b'\x00\x00', b'%\x80']
+2023-09-12 12:35:11,090 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:35:11,090 DEBUG logging:102 Running transaction 2
+2023-09-12 12:35:11,090 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 12:35:11,090 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694514911.089282 Current Time stamp - 1694514911.09041
+2023-09-12 12:35:11,090 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:35:11,092 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:35:11,092 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:35:17,234 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:35:17,234 DEBUG logging:102 Processing: 
+2023-09-12 12:35:17,234 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:35:17,234 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:35:17,279 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:35:17,279 DEBUG logging:102 Running transaction 3
+2023-09-12 12:35:17,279 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x6 0x0 0x2 0x4 0xc 0x80 0x0 0x0 0x47 0x1
+2023-09-12 12:35:17,279 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694514917.279207
+2023-09-12 12:35:17,281 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:35:17,282 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:35:23,307 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:35:23,307 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:35:23,307 DEBUG logging:102 RECV: 
+2023-09-12 12:35:23,307 DEBUG logging:102 Processing: 
+2023-09-12 12:35:23,307 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:35:23,432 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:35:23,467 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:35:23,468 DEBUG logging:102 Running transaction 4
+2023-09-12 12:35:23,468 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4 0x1f 0x0 0x0 0x75 0xb0
+2023-09-12 12:35:23,468 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694514923.468627
+2023-09-12 12:35:23,471 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:35:23,471 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:35:29,474 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:35:29,474 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:35:29,474 DEBUG logging:102 RECV: 
+2023-09-12 12:35:29,474 DEBUG logging:102 Processing: 
+2023-09-12 12:35:29,474 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:35:29,598 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:35:29,633 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:35:29,633 DEBUG logging:102 Running transaction 5
+2023-09-12 12:35:29,633 DEBUG logging:102 SEND: 0x0 0x10 0x4 0xe 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0x43 0x43
+2023-09-12 12:35:29,633 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694514929.633776
+2023-09-12 12:35:29,636 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:35:29,636 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:35:35,649 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:35:35,649 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:35:35,649 DEBUG logging:102 RECV: 
+2023-09-12 12:35:35,649 DEBUG logging:102 Processing: 
+2023-09-12 12:35:35,649 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:35:35,758 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:36:07,850 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:36:07,851 DEBUG logging:102 Running transaction 1
+2023-09-12 12:36:07,851 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x6 0x0 0x2 0x4 0x19 0x0 0x0 0x0 0x42 0xe5
+2023-09-12 12:36:07,851 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:36:07,851 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:36:13,990 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:36:13,990 DEBUG logging:102 Processing: 
+2023-09-12 12:36:13,991 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:36:13,991 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:51:13,066 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:51:13,066 DEBUG logging:102 Running transaction 1
+2023-09-12 12:51:13,066 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:51:13,066 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:51:13,067 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:51:13,109 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:51:13,109 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:51:13,109 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:51:13,109 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 12:51:13,109 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:51:13,109 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:51:13,109 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:51:13,109 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:51:13,109 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:51:13,109 DEBUG logging:102 [64000, 0]
+2023-09-12 12:51:13,109 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 12:52:28,367 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:52:28,368 DEBUG logging:102 Running transaction 1
+2023-09-12 12:52:28,368 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:52:28,368 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:52:28,368 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:52:28,410 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:52:28,410 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:52:28,411 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:52:28,411 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 12:52:28,411 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:52:28,411 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:52:28,411 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:52:28,411 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:52:28,411 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:52:28,411 DEBUG logging:102 [64000, 0]
+2023-09-12 12:52:28,411 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 12:52:28,411 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:52:28,411 DEBUG logging:102 Running transaction 2
+2023-09-12 12:52:28,411 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x0 0xc8 0x0 0x0 0x45 0x9e
+2023-09-12 12:52:28,411 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694515948.41052 Current Time stamp - 1694515948.411355
+2023-09-12 12:52:28,411 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:52:28,414 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:52:28,414 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:52:34,568 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:52:34,568 DEBUG logging:102 Processing: 
+2023-09-12 12:52:34,569 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:52:34,569 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:52:34,604 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:52:34,604 DEBUG logging:102 Running transaction 3
+2023-09-12 12:52:34,604 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 12:52:34,604 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694515954.60417
+2023-09-12 12:52:34,606 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:52:34,606 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:52:40,635 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:52:40,635 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:52:40,635 DEBUG logging:102 RECV: 
+2023-09-12 12:52:40,635 DEBUG logging:102 Processing: 
+2023-09-12 12:52:40,635 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:52:40,760 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:53:21,039 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:53:21,039 DEBUG logging:102 Running transaction 1
+2023-09-12 12:53:21,039 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:53:21,039 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:53:21,039 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:53:21,080 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:53:21,080 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x0 0xc8 0x0 0x0 0x7b 0xcd
+2023-09-12 12:53:21,080 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x0 0xc8 0x0 0x0 0x7b 0xcd
+2023-09-12 12:53:21,081 DEBUG logging:102 Getting Frame - 0x3 0x4 0x0 0xc8 0x0 0x0
+2023-09-12 12:53:21,081 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:53:21,081 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:53:21,081 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:53:21,082 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:53:21,082 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:53:21,082 DEBUG logging:102 [200, 0]
+2023-09-12 12:53:21,082 DEBUG logging:102 handle: [b'\x00\x00', b'\x00\xc8']
+2023-09-12 12:53:21,082 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:53:21,082 DEBUG logging:102 Running transaction 2
+2023-09-12 12:53:21,082 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x0 0xc8 0x0 0x0 0x45 0x9e
+2023-09-12 12:53:21,082 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694516001.080967 Current Time stamp - 1694516001.08238
+2023-09-12 12:53:21,082 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:53:21,085 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:53:21,085 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:53:27,224 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:53:27,224 DEBUG logging:102 Processing: 
+2023-09-12 12:53:27,224 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:53:27,224 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:53:27,265 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:53:27,265 DEBUG logging:102 Running transaction 3
+2023-09-12 12:53:27,265 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 12:53:27,265 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516007.265568
+2023-09-12 12:53:27,267 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:53:27,267 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:53:33,271 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:53:33,271 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:53:33,271 DEBUG logging:102 RECV: 
+2023-09-12 12:53:33,271 DEBUG logging:102 Processing: 
+2023-09-12 12:53:33,271 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:53:33,395 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:53:33,433 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:53:33,433 DEBUG logging:102 Running transaction 4
+2023-09-12 12:53:33,433 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7d 0x0 0x0 0x0 0xdc 0xc
+2023-09-12 12:53:33,433 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516013.433505
+2023-09-12 12:53:33,435 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:53:33,436 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:53:39,439 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:53:39,439 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:53:39,439 DEBUG logging:102 RECV: 
+2023-09-12 12:53:39,439 DEBUG logging:102 Processing: 
+2023-09-12 12:53:39,439 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:53:39,564 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:53:39,599 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:53:39,599 DEBUG logging:102 Running transaction 5
+2023-09-12 12:53:39,600 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4 0x1f 0x0 0x0 0x75 0xb0
+2023-09-12 12:53:39,600 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516019.60046
+2023-09-12 12:53:39,603 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:53:39,603 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:53:45,606 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:53:45,606 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:53:45,606 DEBUG logging:102 RECV: 
+2023-09-12 12:53:45,606 DEBUG logging:102 Processing: 
+2023-09-12 12:53:45,606 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:53:45,729 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:54:03,725 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:54:03,725 DEBUG logging:102 Running transaction 1
+2023-09-12 12:54:03,725 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:54:03,725 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:54:03,726 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:54:03,768 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:54:03,768 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 12:54:03,768 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 12:54:03,768 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7d 0x0 0x0 0x0
+2023-09-12 12:54:03,768 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:54:03,768 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:54:03,768 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:54:03,769 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:54:03,769 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:54:03,769 DEBUG logging:102 [32000, 0]
+2023-09-12 12:54:03,769 DEBUG logging:102 handle: [b'\x00\x00', b'}\x00']
+2023-09-12 12:54:03,769 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:54:03,769 DEBUG logging:102 Running transaction 2
+2023-09-12 12:54:03,769 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x0 0xc8 0x0 0x0 0x45 0x9e
+2023-09-12 12:54:03,769 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694516043.768168 Current Time stamp - 1694516043.769196
+2023-09-12 12:54:03,769 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:54:03,771 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:54:03,771 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:54:09,927 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:54:09,927 DEBUG logging:102 Processing: 
+2023-09-12 12:54:09,927 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:54:09,927 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:54:09,962 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:54:09,963 DEBUG logging:102 Running transaction 3
+2023-09-12 12:54:09,963 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4c 0xec 0x0 0x0 0x92 0x23
+2023-09-12 12:54:09,963 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516049.963328
+2023-09-12 12:54:09,965 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:54:09,965 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:54:15,996 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:54:15,996 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:54:15,996 DEBUG logging:102 RECV: 
+2023-09-12 12:54:15,996 DEBUG logging:102 Processing: 
+2023-09-12 12:54:15,996 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:54:16,121 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:54:16,157 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:54:16,157 DEBUG logging:102 Running transaction 4
+2023-09-12 12:54:16,157 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0xfa 0x0 0x0 0x0 0xf4 0xb8
+2023-09-12 12:54:16,158 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516056.157109
+2023-09-12 12:54:16,160 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:54:16,161 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:54:22,174 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:54:22,174 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:54:22,174 DEBUG logging:102 RECV: 
+2023-09-12 12:54:22,174 DEBUG logging:102 Processing: 
+2023-09-12 12:54:22,174 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:54:22,282 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:54:22,323 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:54:22,323 DEBUG logging:102 Running transaction 5
+2023-09-12 12:54:22,323 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4 0x1f 0x0 0x0 0x75 0xb0
+2023-09-12 12:54:22,323 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516062.323781
+2023-09-12 12:54:22,326 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:54:22,326 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:54:28,337 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:54:28,337 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:54:28,337 DEBUG logging:102 RECV: 
+2023-09-12 12:54:28,337 DEBUG logging:102 Processing: 
+2023-09-12 12:54:28,337 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:54:28,463 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:56:11,542 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:56:11,542 DEBUG logging:102 Running transaction 1
+2023-09-12 12:56:11,542 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:56:11,542 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:56:11,542 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:56:11,584 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:56:11,584 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:56:11,584 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:56:11,584 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 12:56:11,585 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:56:11,585 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:56:11,585 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:56:11,585 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:56:11,585 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:56:11,585 DEBUG logging:102 [64000, 0]
+2023-09-12 12:56:11,585 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 12:56:11,585 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:56:11,585 DEBUG logging:102 Running transaction 2
+2023-09-12 12:56:11,585 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x21 0x3e 0x0 0x0 0x2e 0xb6
+2023-09-12 12:56:11,585 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694516171.58417 Current Time stamp - 1694516171.585208
+2023-09-12 12:56:11,585 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:56:11,587 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:56:11,588 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:56:17,717 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:56:17,717 DEBUG logging:102 Processing: 
+2023-09-12 12:56:17,717 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:56:17,717 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:56:39,914 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:56:39,914 DEBUG logging:102 Running transaction 1
+2023-09-12 12:56:39,914 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:56:39,915 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:56:39,915 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:56:39,956 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:56:39,956 DEBUG logging:102 RECV: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:56:39,957 DEBUG logging:102 Processing: 0x1 0x3 0x4 0xfa 0x0 0x0 0x0 0xca 0xeb
+2023-09-12 12:56:39,957 DEBUG logging:102 Getting Frame - 0x3 0x4 0xfa 0x0 0x0 0x0
+2023-09-12 12:56:39,957 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:56:39,957 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:56:39,957 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:56:39,957 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:56:39,957 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:56:39,957 DEBUG logging:102 [64000, 0]
+2023-09-12 12:56:39,957 DEBUG logging:102 handle: [b'\x00\x00', b'\xfa\x00']
+2023-09-12 12:56:39,957 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:56:39,957 DEBUG logging:102 Running transaction 2
+2023-09-12 12:56:39,957 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x7d 0x0 0x0 0x0 0xdc 0xc
+2023-09-12 12:56:39,958 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694516199.956223 Current Time stamp - 1694516199.957248
+2023-09-12 12:56:39,958 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:56:39,960 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:56:39,960 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:56:46,090 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:56:46,090 DEBUG logging:102 Processing: 
+2023-09-12 12:56:46,090 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:56:46,090 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:56:46,129 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:56:46,129 DEBUG logging:102 Running transaction 3
+2023-09-12 12:56:46,130 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x5b 0x7c 0x0 0x0 0x97 0xba
+2023-09-12 12:56:46,130 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516206.130228
+2023-09-12 12:56:46,132 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:56:46,132 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:56:52,162 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:56:52,162 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:56:52,162 DEBUG logging:102 RECV: 
+2023-09-12 12:56:52,162 DEBUG logging:102 Processing: 
+2023-09-12 12:56:52,162 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:56:52,272 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:57:13,272 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 12:57:13,273 DEBUG logging:102 Running transaction 1
+2023-09-12 12:57:13,273 DEBUG logging:102 SEND: 0x1 0x3 0x4 0x4 0x0 0x2 0x84 0xfa
+2023-09-12 12:57:13,273 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:57:13,273 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:57:13,315 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:57:13,315 DEBUG logging:102 RECV: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 12:57:13,315 DEBUG logging:102 Processing: 0x1 0x3 0x4 0x7d 0x0 0x0 0x0 0xe2 0x5f
+2023-09-12 12:57:13,315 DEBUG logging:102 Getting Frame - 0x3 0x4 0x7d 0x0 0x0 0x0
+2023-09-12 12:57:13,315 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 12:57:13,315 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 12:57:13,315 DEBUG logging:102 Adding transaction 1
+2023-09-12 12:57:13,316 DEBUG logging:102 Getting transaction 1
+2023-09-12 12:57:13,316 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:57:13,316 DEBUG logging:102 [32000, 0]
+2023-09-12 12:57:13,316 DEBUG logging:102 handle: [b'\x00\x00', b'}\x00']
+2023-09-12 12:57:13,317 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:57:13,317 DEBUG logging:102 Running transaction 2
+2023-09-12 12:57:13,317 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x4 0x0 0x2 0x4 0x3 0xe8 0x0 0x0 0x44 0x10
+2023-09-12 12:57:13,317 DEBUG logging:102 Changing state to IDLE - Last Frame End - 1694516233.3153 Current Time stamp - 1694516233.317159
+2023-09-12 12:57:13,317 DEBUG logging:102 Waiting for 3.5 char before next send - 1.75 ms
+2023-09-12 12:57:13,320 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:57:13,320 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:57:19,470 DEBUG logging:102 Transaction failed. (Modbus Error: [Invalid Message] No response received, expected at least 4 bytes (0 received)) 
+2023-09-12 12:57:19,470 DEBUG logging:102 Processing: 
+2023-09-12 12:57:19,470 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:57:19,470 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 12:57:19,505 DEBUG logging:102 Current transaction state - TRANSACTION_COMPLETE
+2023-09-12 12:57:19,505 DEBUG logging:102 Running transaction 3
+2023-09-12 12:57:19,505 DEBUG logging:102 SEND: 0x0 0x10 0x4 0x12 0x0 0x2 0x4 0x4 0x1f 0x0 0x0 0x75 0xb0
+2023-09-12 12:57:19,505 DEBUG logging:102 Changing state to IDLE - Last Frame End - None Current Time stamp - 1694516239.505583
+2023-09-12 12:57:19,508 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 12:57:19,508 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 12:57:25,516 DEBUG logging:102 No response received, Expected 8 bytes Received 0 bytes !!!!
+2023-09-12 12:57:25,516 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 12:57:25,516 DEBUG logging:102 RECV: 
+2023-09-12 12:57:25,516 DEBUG logging:102 Processing: 
+2023-09-12 12:57:25,516 DEBUG logging:102 Getting transaction 0
+2023-09-12 12:57:25,639 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 13:03:33,589 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 13:03:33,589 DEBUG logging:102 Running transaction 1
+2023-09-12 13:03:33,589 DEBUG logging:102 SEND: 0x1 0x5 0x7 0xd0 0x0 0x0 0xcd 0x47
+2023-09-12 13:03:33,589 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 13:03:33,590 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 13:03:33,631 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 13:03:33,631 DEBUG logging:102 RECV: 0x1 0x5 0x7 0xd0 0x0 0x0 0xcd 0x47
+2023-09-12 13:03:33,631 DEBUG logging:102 Processing: 0x1 0x5 0x7 0xd0 0x0 0x0 0xcd 0x47
+2023-09-12 13:03:33,631 DEBUG logging:102 Getting Frame - 0x5 0x7 0xd0 0x0 0x0
+2023-09-12 13:03:33,631 DEBUG logging:102 Factory Response[WriteSingleCoilResponse': 5]
+2023-09-12 13:03:33,631 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 13:03:33,632 DEBUG logging:102 Adding transaction 1
+2023-09-12 13:03:33,632 DEBUG logging:102 Getting transaction 1
+2023-09-12 13:03:33,632 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"
+2023-09-12 13:03:56,638 DEBUG logging:102 Current transaction state - IDLE
+2023-09-12 13:03:56,638 DEBUG logging:102 Running transaction 1
+2023-09-12 13:03:56,639 DEBUG logging:102 SEND: 0x1 0x3 0x3 0xea 0x0 0x1 0xa5 0xba
+2023-09-12 13:03:56,639 DEBUG logging:102 New Transaction state "SENDING"
+2023-09-12 13:03:56,639 DEBUG logging:102 Changing transaction state from "SENDING" to "WAITING FOR REPLY"
+2023-09-12 13:03:56,680 DEBUG logging:102 Changing transaction state from "WAITING FOR REPLY" to "PROCESSING REPLY"
+2023-09-12 13:03:56,680 DEBUG logging:102 RECV: 0x1 0x3 0x2 0x0 0x4 0xb9 0x87
+2023-09-12 13:03:56,680 DEBUG logging:102 Processing: 0x1 0x3 0x2 0x0 0x4 0xb9 0x87
+2023-09-12 13:03:56,680 DEBUG logging:102 Getting Frame - 0x3 0x2 0x0 0x4
+2023-09-12 13:03:56,682 DEBUG logging:102 Factory Response[ReadHoldingRegistersResponse': 3]
+2023-09-12 13:03:56,682 DEBUG logging:102 Frame advanced, resetting header!!
+2023-09-12 13:03:56,682 DEBUG logging:102 Adding transaction 1
+2023-09-12 13:03:56,682 DEBUG logging:102 Getting transaction 1
+2023-09-12 13:03:56,682 DEBUG logging:102 Changing transaction state from "PROCESSING REPLY" to "TRANSACTION_COMPLETE"

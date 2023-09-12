@@ -16,13 +16,16 @@ pymodbus.pymodbus_apply_logging_config(log_file_name='log.txt')
 connection = client.connect()
 
 if connection:
-    builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(-3200)
-    payload = builder.build()
-    print(payload)
-    print('moving to position...')
-    client.write_registers(1036, payload, count=2, unit=1, skip_encode=True)
-    print('device in position')
+    # read = client.read_holding_registers(address=1028, count=2, slave=1)
+    # decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
+    # decoded = decoder.decode_32bit_int()
+    # print(decoded)
+    # brk_real_set(client, 1000)
+    # wave_abs(client, 300)
+    deviece_status(client)
+
+
+
 
 else:
     print('Connection not established!')
