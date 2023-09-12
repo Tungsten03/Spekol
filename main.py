@@ -18,12 +18,6 @@ if connection:
     print('Connection established')
 
     try:
-        deviece_status(client)
-        device_on(client)
-        pos_abs(client, 0.5)
-        time.sleep(1)
-        pos_abs(client, 2.0)
-        go_home(client, 1)
 
 
     except ModbusException as e:

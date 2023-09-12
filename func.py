@@ -3,10 +3,6 @@ from pymodbus.payload import BinaryPayloadBuilder, BinaryPayloadDecoder, Endian
 
 
 
-##### DOCKSTRINGS MESSED UP - FIX IT!!!!!
-# WRITE UNITTESTS!
-
-
 
 
 def go_home(device:object, speed:(int,float)):
@@ -56,10 +52,12 @@ def pos_abs(device:object, position:float):
 
 def vel_abs(device, vel):
     """
+    The vel_abs function sets the absolute velocity of the motor.
 
-    :param client:
-    :param vel:
-    :return:
+    :param device: Identify which device is being used
+    :param vel: Set the velocity of the motor
+    :return: None
+
     """
     if not isinstance(vel, int):
         raise ValueError('velocity must be integer')
@@ -71,11 +69,13 @@ def vel_abs(device, vel):
 
 def wave_abs(device:object, wavelenght:int):
     """
-    Moves device to given position
+    The wave_abs function takes a device object and an integer wavelength value as arguments.
+    It then calculates the corresponding position of the monochromator using a linear equation,
+    and writes that value to register 1042 on the device.
 
-    :param device: The client object of a selected device.
-    :param position:
-    :return:
+    :param device:object: Specify the device that is being used
+    :param wavelenght:int: Set the wavelenght of the laser
+    :return: None
     """
     if not isinstance(wavelenght, int):
         raise ValueError('Position must be integer')
@@ -87,11 +87,13 @@ def wave_abs(device:object, wavelenght:int):
 
 def wave_rel(device:object, wavelenght:int):
     """
-    Moves device from current position by given wavelenght
+    The wave_rel function moves the monochromator to a new wavelength relative to its current position.
+    The function takes two arguments: device and wavelenght.
+    Device is an object that represents the connection between this program and the spectrometer, while wavelenght is an integer representing how many nanometers away from its current position you want it to move.
 
-    :param device: The client object of a selected device.
-    :param position:
-    :return:
+    :param device:object: Identify the device that is being used
+    :param wavelenght:int: Set the wavelenght in nm
+    :return: None
     """
     if not isinstance(wavelenght, int):
         raise ValueError('Position must be integer')
@@ -101,57 +103,60 @@ def wave_rel(device:object, wavelenght:int):
     payload = builder.build()
     device.write_registers(1044, payload, count=2, unit=1, skip_encode=True)
 
-def acc_real_read(device_name):
-    """
-    Not working porperly
+def acc_real_read(device:object):
 
-    :param device_name:
-    :return:
     """
-    read = device_name.read_holding_registers(address=1026, count=2, slave=1)
+    The acc_real_read function reads the real acceleration value from the device.
+    The function takes in a device as an argument and returns a decoded 32-bit integer.
+
+    :param device: Specify the device that is being read from
+    :return: The value of the real acceleration
+    """
+    read = device.read_holding_registers(address=1026, count=2, slave=1)
     decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     decoded = decoder.decode_32bit_int()
-    print(decoded)
+    print(decoded/64000)
 
-def acc_real_set(device:object, acc:int):
+def acc_real_set(device:object, acc:float):
+
     """
-    NOT WORKING
+    The acc_real_set function sets the acceleration of the motor in real time.
 
-    :param device: The client object of a selected device.
-
-    :return:
+    :param device:object: Specify the device that is being used
+    :param acc:float: Set the acceleration value
+    :return: None
     """
-    if not isinstance(acc, int):
+    if not isinstance(acc, (int,float)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(acc)
+    builder.add_32bit_int(int(64000*acc))
     payload = builder.build()
     device.write_registers(1026, payload, count=2, unit=1, skip_encode=True)
 
-def brk_real_read(device_name):
+def brk_real_read(device_name:str):
     """
-    Not working porperly
+    The brk_real_read function reads the real power value from the BRK device.
 
-    :param device_name:
-    :return:
+    :param device_name: Specify the device you want to read from
+    :return: The real power of the device
     """
     read = device_name.read_holding_registers(address=1028, count=2, slave=1)
     decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     decoded = decoder.decode_32bit_int()
     print(decoded)
 
-def brk_real_set(device:object, acc:int):
+def brk_real_set(device:object, brk:float):
     """
-    NOT WORKING
+    The brk_real_set function sets the real break for the device.
 
-    :param device: The client object of a selected device.
-
-    :return:
+    :param device:object: Specify the device to be used
+    :param brk:float: Set the break for the motor
+    :return: None
     """
-    if not isinstance(acc, int):
+    if not isinstance(brk, (float,int)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(acc)
+    builder.add_32bit_int(int(64000*brk))
     payload = builder.build()
     device.write_registers(1028, payload, count=2, unit=1, skip_encode=True)
 
@@ -167,18 +172,19 @@ def vel_max_read(device_name):
     decoded = decoder.decode_32bit_int()
     print(decoded)
 
-def vel_max_set(device:object, acc:int):
-    """
-    NOT WORKING
+def vel_max_set(device:object, vel:int):
 
-    :param device: The client object of a selected device.
-
-    :return:
     """
-    if not isinstance(acc, int):
+    The vel_max_set function sets the maximum velocity of the motor.
+
+    :param device:object: Identify the device that is being used
+    :param vel:int: Set the maximum velocity of the motor
+    :return: None
+    """
+    if not isinstance(vel, int):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(acc)
+    builder.add_32bit_int(vel)
     payload = builder.build()
     device.write_registers(1030, payload, count=2, unit=1, skip_encode=True)
 
@@ -211,8 +217,17 @@ def device_on(devie_name):
 def device_off(devie_name):
     devie_name.write_coil(address=2000, value=False, slave=1)
 
-def deviece_status(device_name):
-    status = device_name.read_holding_registers(address=1002, count=1, slave=1)
+def device_status(device:object):
+
+    """
+    The device_status function takes a device name as an argument and returns the status of that device.
+        The function uses the read_holding_registers method to read from address 1002, which is where the
+        status register is located. It then prints out what state it's in based on its value.
+
+    :param device:object: Specify the device that will be used to read the status
+    :return: The status of the device
+    """
+    status = device.read_holding_registers(address=1002, count=1, slave=1)
     match status.registers[0]:
         case 0:
             print('motor disabled')
