@@ -18,6 +18,14 @@ if connection:
     print('Connection established')
 
     try:
+        # go_home(client, 1)
+        # time.sleep(1)
+        # vel_max_set(client, 1)
+        # wave_abs(client, 720)
+        device_status(client)
+
+
+
 
 
     except ModbusException as e:

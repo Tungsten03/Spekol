@@ -1,6 +1,11 @@
 from pymodbus.client import ModbusSerialClient
 from pymodbus.payload import BinaryPayloadBuilder, BinaryPayloadDecoder, Endian
 
+### POWER func - more/less done... working ;)
+### Status - revise
+
+velocity = 1200
+step = 64
 
 
 
@@ -41,7 +46,6 @@ def pos_abs(device:object, position:float):
     :return: none
 
     :raise ValueError: Raised if the provided position is not of type int or float.
-
     """
     if not isinstance(position, (float, int)):
         raise ValueError('Position must be integer')
@@ -57,7 +61,6 @@ def vel_abs(device, vel):
     :param device: Identify which device is being used
     :param vel: Set the velocity of the motor
     :return: None
-
     """
     if not isinstance(vel, int):
         raise ValueError('velocity must be integer')
@@ -80,7 +83,7 @@ def wave_abs(device:object, wavelenght:int):
     if not isinstance(wavelenght, int):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    position = 1055 + int((wavelenght-300)*74.55) #Not accurate! REFINE!
+    position = 1055 + int((wavelenght-300)*step) #Not accurate! REFINE!
     builder.add_32bit_int(abs(position))
     payload = builder.build()
     device.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
@@ -98,7 +101,7 @@ def wave_rel(device:object, wavelenght:int):
     if not isinstance(wavelenght, int):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    steps = wavelenght*74.55
+    steps = wavelenght*step
     builder.add_32bit_int(int(steps))
     payload = builder.build()
     device.write_registers(1044, payload, count=2, unit=1, skip_encode=True)
@@ -115,7 +118,7 @@ def acc_real_read(device:object):
     read = device.read_holding_registers(address=1026, count=2, slave=1)
     decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     decoded = decoder.decode_32bit_int()
-    print(decoded/64000)
+    print(decoded/velocity)
 
 def acc_real_set(device:object, acc:float):
 
@@ -129,7 +132,7 @@ def acc_real_set(device:object, acc:float):
     if not isinstance(acc, (int,float)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(int(64000*acc))
+    builder.add_32bit_int(int(velocity*acc))
     payload = builder.build()
     device.write_registers(1026, payload, count=2, unit=1, skip_encode=True)
 
@@ -156,7 +159,7 @@ def brk_real_set(device:object, brk:float):
     if not isinstance(brk, (float,int)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(int(64000*brk))
+    builder.add_32bit_int(int(velocity*brk))
     payload = builder.build()
     device.write_registers(1028, payload, count=2, unit=1, skip_encode=True)
 
@@ -170,7 +173,7 @@ def vel_max_read(device_name):
     read = device_name.read_holding_registers(address=1030, count=2, slave=1)
     decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     decoded = decoder.decode_32bit_int()
-    print(decoded)
+    print(decoded/velocity)
 
 def vel_max_set(device:object, vel:int):
 
@@ -181,12 +184,13 @@ def vel_max_set(device:object, vel:int):
     :param vel:int: Set the maximum velocity of the motor
     :return: None
     """
-    if not isinstance(vel, int):
+    if not isinstance(vel, (int, float)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
-    builder.add_32bit_int(vel)
+    builder.add_32bit_int(int(vel*velocity))
     payload = builder.build()
-    device.write_registers(1030, payload, count=2, unit=1, skip_encode=True)
+    vel = payload
+    device.write_registers(1030, vel, count=2, unit=1, skip_encode=True)
 
 def check_power(device_name):
     """
