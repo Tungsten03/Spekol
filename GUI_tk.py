@@ -2,14 +2,47 @@ import tkinter as tk
 from ttkthemes import ThemedTk
 from utility import labels as lbl
 from utility import client_settup as cst
+from func import *
+from pymodbus.client import ModbusSerialClient
+
+
+def show_err():
+    """
+    Display a help popup window with instructions.
+
+    This function creates a new 'Pomoc' popup window using `Toplevel()`. It adds a label to the
+    popup window with the help text obtained from `lbl.gui_help`.
+
+    :return: None
+    """
+    # Create a new popup window with 'Pomoc' title
+    popup = tk.Toplevel()
+    popup.title('Pomoc')
+
+    # Create a label with help text
+    label = tk.Label(popup, text=lbl.connect_error, justify='left')
+    label.pack(padx=20, pady=20)
+
+    # Create a close button
+    button = tk.Button(popup, text="Zamknij", command=popup.destroy)
+    button.pack(pady=10)
 
 def connect():
     port = entry_port.get()
-    baud = entry_baud.get()
+    baudrate = entry_baud.get()
     bytesize = 8
     pairity = entry_pair.get()
     stopbits = entry_stopb.get()
-    print(f'port: {port}, baudrate: {baud}, bytesize: {bytesize}, pairity {pairity}, stop {stopbits}')
+    client = ModbusSerialClient(port=port, baudrate=baudrate, bytesize=bytesize, pairity=pairity,
+                                sopbits=stopbits)
+    connection = client.connect()
+    if connection:
+        connection_status.set('Połączono z klientem')
+        connection_entry.config(background='green')
+    else:
+        show_err()
+        connection_status.set('Nie udało się połączyć z klientem')
+        connection_entry.config(background='red')
 
 def toggle_settings():
     if block_var.get():
@@ -80,12 +113,14 @@ stopb_en.config(state='disabled')
 # ROW 2
 conn_but = tk.Button(settings_frame, text='POŁĄCZ', command=connect)
 conn_but.grid(row=2, column=0, padx=2, pady=10)
+connection_status = tk.StringVar()
+connection_status.set('Sprawdź parametry klienta i naciśnij: POŁĄCZ')
+connection_entry = tk.Entry(settings_frame, textvariable=connection_status)
+connection_entry.grid(row=2, column=1, columnspan=3, pady=10, sticky='WE')
 
-
-
-
-# Create Buttons,
-
+# Drive frame gutts
+acc_entry = tk.Entry(drive_frame)
+acc_entry.pack()
 
 
 root.mainloop()

@@ -7,8 +7,12 @@ from pymodbus.payload import BinaryPayloadBuilder, BinaryPayloadDecoder, Endian
 velocity = 1200
 step = 64
 
-
-
+def connect_client(port, baudrate, bytesize, pairity, sopbits):
+    client = ModbusSerialClient(port=port, baudrate=baudrate, bytesize=bytesize, pairity=pairity,
+                            sopbits=sopbits)
+    connection = client.connect()
+    if connection:
+        return client
 
 def go_home(device:object, speed:(int,float)):
     """
