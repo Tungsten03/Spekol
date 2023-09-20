@@ -36,7 +36,6 @@ def connect():
     bytesize = 8
     pairity_decoded = pairity_combo.get()[0]
     stopbits = entry_stopb.get()
-    print(repr(port), repr(baudrate), repr(bytesize), repr(pairity_decoded), repr(stopbits))
     client = ModbusSerialClient(port=port, baudrate=baudrate, bytesize=bytesize,
                                 pairity=pairity_decoded, stopbits=stopbits)
     connection = client.connect()
@@ -66,28 +65,44 @@ def toggle_settings():
 
 def device_setup():
     slave = selected_slave.get()
-    velocity = entry_vel.get()
-    acceleration = entry_acc.get()
-    brk = entry_break.get()
-    vel_max_set(slave, velocity)
-    acc_real_set(slave, acceleration)
-    brk_real_set(slave, brk)
+    velocity = float(entry_vel.get())
+    acceleration = float(entry_acc.get())
+    brk = float(entry_break.get())
+    vel_max_set(client, slave, velocity)
+    acc_real_set(client, slave, acceleration)
+    brk_real_set(client, slave, brk)
     print(f'values: {velocity}, {acceleration}, {brk} has been set')
 
-def base():
-    try:
+# def base():
+#         slave = selected_slave.get()
+#         speed = float(base_entry.get())
+#         device_on(client, slave)
+#         go_home(client, slave, speed)
 
-        slave = selected_slave.get()
-        speed = float(base_entry.get())
-        device_on(client, slave)
-        go_home(client, slave, speed)
-    except Exception as e:
-        print(e)
+def execute1():
+    func = pos1_func.get()
+    slave = pos1_slave.get()
+
+    match func:
+        case 'bazowanie':
+            value = float(pos1_en_value.get())
+            go_home(client, slave, value)
+        case 'pozycja absolutna':
+            value = int(pos1_en_value.get())
+            wave_abs(client, slave, value)
+        case 'pozycja względna':
+            value = int(pos1_en_value.get())
+            wave_rel(client, slave, value)
+
+
+
+
 
 
 if __name__ == '__main__':
 
     client = ''
+    functions = ['bazowanie', 'pozycja absolutna', 'pozycja względna']
 
     root = ThemedTk(theme="radiance")
     root.title('ASKR')
@@ -182,19 +197,19 @@ if __name__ == '__main__':
     combo.grid(row=1, column=1, padx=10, pady=10)
 
     # Velocity
-    entry_vel = tk.IntVar()
+    entry_vel = tk.StringVar()
     entry_vel.set(cst.default_velocity)
     velocity_en = ttk.Entry(drive_frame, textvariable=entry_vel, width=8)
     velocity_en.grid(row=1, column=2, pady=10)
 
     # Acceleration
-    entry_acc = tk.IntVar()
+    entry_acc = tk.StringVar()
     entry_acc.set(cst.default_acceleration)
     acceleration_en = ttk.Entry(drive_frame, textvariable=entry_acc, width=8)
     acceleration_en.grid(row=1, column=3, pady=10)
 
     # Break
-    entry_break = tk.IntVar()
+    entry_break = tk.StringVar()
     entry_break.set(cst.default_acceleration)
     break_en = ttk.Entry(drive_frame, textvariable=entry_break, width=8)
     break_en.grid(row=1, column=4, pady=10)
@@ -204,13 +219,38 @@ if __name__ == '__main__':
     set_but.grid(row=1, column=0, padx=2, pady=10)
 
     # Func frame gutts
-    base_entry = tk.StringVar()
-    base_entry.set(cst.default_base)
-    base_en = ttk.Entry(func_frame, textvariable=base_entry, width=8)
-    base_en.grid(row=0, column=1, pady=10)
+    ttk.Label(func_frame, text='Sterowanie', relief='sunken', width=15).grid(row=0, column=0, padx=3, pady=10, sticky='w')
+    ttk.Label(func_frame, text='slave').grid(row=0, column=1, padx=30, pady=10)
+    ttk.Label(func_frame, text='komenda').grid(row=0, column=2, padx=30, pady=10)
+    ttk.Label(func_frame, text='wartość').grid(row=0, column=3, padx=30, pady=10)
 
-    base_but = ttk.Button(func_frame, text='BAZUJ', command=base)
-    base_but.grid(row=0, column=0)
+    # Pozycja 1
+    pos1_slave = tk.IntVar()
+    pos1_slave.set(slaves[0])
+    cmb_pos1_slave = ttk.Combobox(func_frame, textvariable=pos1_slave, values=slaves, width=5)
+    cmb_pos1_slave.grid(row=1, column=1, padx=10, pady=10)
+
+    pos1_func = tk.StringVar()
+    pos1_func.set(functions[0])
+    cmb_pos1_func = ttk.Combobox(func_frame, textvariable=pos1_func, values=functions, width=16)
+    cmb_pos1_func.grid(row=1, column=2, padx=10, pady=10)
+
+
+    pos1_en_value = tk.StringVar()
+    pos1_en_value.set('0.5')
+    pos1_en_funcval = ttk.Entry(func_frame, textvariable=pos1_en_value, width=8)
+    pos1_en_funcval.grid(row=1, column=3, padx=10, pady=10)
+
+    pos1_btn_go = ttk.Button(func_frame, text='WYKONAJ', command=execute1)  #### Dodaj command
+    pos1_btn_go.grid(row=1, column=0, padx=2, pady=10)
+
+    # base_entry = tk.StringVar()
+    # base_entry.set(cst.default_base)
+    # base_en = ttk.Entry(func_frame, textvariable=base_entry, width=8)
+    # base_en.grid(row=0, column=1, pady=10)
+
+    # base_but = ttk.Button(func_frame, text='BAZUJ', command=base)
+    # base_but.grid(row=0, column=0)
 
 
 

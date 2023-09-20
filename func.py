@@ -76,7 +76,7 @@ def vel_abs(device, vel):
     device.write_registers(1038, payload, count=2, unit=1, skip_encode=True)
 
 
-def wave_abs(device:object, wavelenght:int):
+def wave_abs(client, device, wavelenght):
     """
     The wave_abs function takes a device object and an integer wavelength value as arguments.
     It then calculates the corresponding position of the monochromator using a linear equation,
@@ -86,15 +86,15 @@ def wave_abs(device:object, wavelenght:int):
     :param wavelenght:int: Set the wavelenght of the laser
     :return: None
     """
-    if not isinstance(wavelenght, int):
+    if not isinstance(wavelenght, (int,float)):
         raise ValueError('Position must be integer')
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     position = 1055 + int((wavelenght-300)*step) #Not accurate! REFINE!
     builder.add_32bit_int(abs(position))
     payload = builder.build()
-    device.write_registers(1042, payload, count=2, unit=1, skip_encode=True)
+    client.write_registers(1042, payload, count=2, unit=device, skip_encode=True)
 
-def wave_rel(device:object, wavelenght:int):
+def wave_rel(client, device:object, wavelenght:int):
     """
     The wave_rel function moves the monochromator to a new wavelength relative to its current position.
     The function takes two arguments: device and wavelenght.
@@ -110,7 +110,7 @@ def wave_rel(device:object, wavelenght:int):
     steps = wavelenght*step
     builder.add_32bit_int(int(steps))
     payload = builder.build()
-    device.write_registers(1044, payload, count=2, unit=1, skip_encode=True)
+    client.write_registers(1044, payload, count=2, unit=device, skip_encode=True)
 
 def acc_real_read(device:object):
 
@@ -126,7 +126,7 @@ def acc_real_read(device:object):
     decoded = decoder.decode_32bit_int()
     print(decoded/velocity)
 
-def acc_real_set( device:int, acc:float):
+def acc_real_set(client, device:int, acc:float):
 
     """
     The acc_real_set function sets the acceleration of the motor in real time.
@@ -154,7 +154,7 @@ def brk_real_read(device:int):
     decoded = decoder.decode_32bit_int()
     print(decoded)
 
-def brk_real_set(device:int, brk:float):
+def brk_real_set(client, device:int, brk:float):
     """
     The brk_real_set function sets the real break for the device.
 
@@ -181,7 +181,7 @@ def vel_max_read(device_name):
     decoded = decoder.decode_32bit_int()
     print(decoded/velocity)
 
-def vel_max_set(device:int, vel:int):
+def vel_max_set(client, device:int, vel:int):
 
     """
     The vel_max_set function sets the maximum velocity of the motor.
