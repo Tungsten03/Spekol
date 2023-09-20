@@ -1,20 +1,22 @@
 from pymodbus.client import ModbusSerialClient
 from pymodbus.payload import BinaryPayloadBuilder, BinaryPayloadDecoder, Endian
+from GUI_tk import *
 
 ### POWER func - more/less done... working ;)
 ### Status - revise
+global client
 
 velocity = 1200
 step = 64
 
-def connect_client(port, baudrate, bytesize, pairity, sopbits):
+def connect_client(port, baudrate, bytesize, pairity, stopbits):
     client = ModbusSerialClient(port=port, baudrate=baudrate, bytesize=bytesize, pairity=pairity,
-                            sopbits=sopbits)
+                            stopbits=stopbits)
     connection = client.connect()
     if connection:
         return client
 
-def go_home(device:object, speed:(int,float)):
+def go_home(client, device:object, speed:(int,float)):
     """
     Takes a device object and a movement speed and sends the message to the device.
     Positive value starts homing of a device to position 0 (clockwise), negative value will move to max position
@@ -38,7 +40,7 @@ def go_home(device:object, speed:(int,float)):
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     builder.add_32bit_int(int(-6400*speed))
     payload = builder.build()
-    device.write_registers(1036, payload, count=2, unit=1, skip_encode=True)
+    client.write_registers(1036, payload, count=2, unit=device, skip_encode=True)
 
 
 def pos_abs(device:object, position:float):
@@ -124,7 +126,7 @@ def acc_real_read(device:object):
     decoded = decoder.decode_32bit_int()
     print(decoded/velocity)
 
-def acc_real_set(device:object, acc:float):
+def acc_real_set( device:int, acc:float):
 
     """
     The acc_real_set function sets the acceleration of the motor in real time.
@@ -138,21 +140,21 @@ def acc_real_set(device:object, acc:float):
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     builder.add_32bit_int(int(velocity*acc))
     payload = builder.build()
-    device.write_registers(1026, payload, count=2, unit=1, skip_encode=True)
+    client.write_registers(1026, payload, count=2, unit=device, skip_encode=True)
 
-def brk_real_read(device_name:str):
+def brk_real_read(device:int):
     """
     The brk_real_read function reads the real power value from the BRK device.
 
     :param device_name: Specify the device you want to read from
     :return: The real power of the device
     """
-    read = device_name.read_holding_registers(address=1028, count=2, slave=1)
+    read = client.read_holding_registers(address=1028, count=2, slave=device)
     decoder = BinaryPayloadDecoder.fromRegisters(read.registers, byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     decoded = decoder.decode_32bit_int()
     print(decoded)
 
-def brk_real_set(device:object, brk:float):
+def brk_real_set(device:int, brk:float):
     """
     The brk_real_set function sets the real break for the device.
 
@@ -165,7 +167,7 @@ def brk_real_set(device:object, brk:float):
     builder = BinaryPayloadBuilder(byteorder=Endian.BIG, wordorder=Endian.LITTLE)
     builder.add_32bit_int(int(velocity*brk))
     payload = builder.build()
-    device.write_registers(1028, payload, count=2, unit=1, skip_encode=True)
+    client.write_registers(1028, payload, count=2, unit=device, skip_encode=True)
 
 def vel_max_read(device_name):
     """
@@ -179,7 +181,7 @@ def vel_max_read(device_name):
     decoded = decoder.decode_32bit_int()
     print(decoded/velocity)
 
-def vel_max_set(device:object, vel:int):
+def vel_max_set(device:int, vel:int):
 
     """
     The vel_max_set function sets the maximum velocity of the motor.
@@ -194,7 +196,7 @@ def vel_max_set(device:object, vel:int):
     builder.add_32bit_int(int(vel*velocity))
     payload = builder.build()
     vel = payload
-    device.write_registers(1030, vel, count=2, unit=1, skip_encode=True)
+    client.write_registers(1030, vel, count=2, unit=device, skip_encode=True)
 
 def check_power(device_name):
     """
@@ -219,8 +221,8 @@ def set_power(device_name, power):
     power = check_power(device_name)
     print(f'Power set: {power}')
 
-def device_on(devie_name):
-    devie_name.write_coil(address=2000, value=True, slave=1)
+def device_on(client, device):
+    client.write_coil(address=2000, value=True, slave=device)
 
 def device_off(devie_name):
     devie_name.write_coil(address=2000, value=False, slave=1)

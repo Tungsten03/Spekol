@@ -2,6 +2,7 @@ import minimalmodbus
 from minimalmodbus import Instrument
 import serial
 
+
 instrument = Instrument(port='COM3', slaveaddress=1, debug=True)
 
 instrument.serial.port                     # this is the serial port name
